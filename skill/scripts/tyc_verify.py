@@ -138,6 +138,7 @@ def lookup(name):
                 "base": comp.get("base"),
                 "orgType": comp.get("orgTypeName"),
                 "address": comp.get("regLocation"),
+                "businessScope": comp.get("businessScope"),
                 "phone": (comp.get("phone") or "").split("\t")[0].strip() if comp.get("phone") else "",
                 "historyNames": comp.get("historyNames"),
                 "eid": comp.get("id"),

@@ -53,6 +53,51 @@ LANG_BUTTONS = {"en": ("english", "en"), "fr": ("français", "french", "fr"),
                 "de": ("deutsch", "german", "de"), "es": ("español", "spanish", "es"),
                 "ru": ("русский", "russian", "ru"), "ar": ("العربية", "arabic", "ar")}
 
+# 多语种检测（供投标：法语区 ENGTP/SONELGAZ 等，法语官网比英文更有价值）
+# 每个语种: (路径元组, 内容探针正则, 显示名)
+FOREIGN_LANGS = {
+    "fr": (("/fr", "/fr/", "/french", "/francais", "/fr/index.html"),
+           r"\b(nous|notre|produits|contact|société|acier|tuyau|fabrication|qualité)\b", "法语"),
+    "de": (("/de", "/de/", "/german", "/deutsch"),
+           r"\b(unternehmen|produkte|kontakt|stahl|rohr|fertigung|qualität)\b", "德语"),
+    "es": (("/es", "/es/", "/spanish", "/espanol"),
+           r"\b(empresa|productos|contacto|acero|tubo|fabricación|calidad)\b", "西班牙语"),
+    "ru": (("/ru", "/ru/", "/russian"),
+           r"\b(компания|продукция|контакты|сталь|труба|производство)\b", "俄语"),
+    "ar": (("/ar", "/ar/", "/arabic"),
+           r"[\u0600-\u06FF]", "阿拉伯语"),
+    "pt": (("/pt", "/pt/", "/portuguese"),
+           r"\b(empresa|produtos|contato|aço|tubo|fabricação)\b", "葡萄牙语"),
+}
+
+# 子页深挖路径（设备/产品参数常在二级页，不在首页）
+SUBPAGE_PATHS = ("/about", "/about-us", "/aboutus", "/company", "/profile",
+                 "/products", "/product", "/equipment", "/facility",
+                 "/manufacturing", "/factory", "/workshop",
+                 "/关于我们", "/公司简介", "/产品中心", "/设备", "/生产设备", "/厂房")
+
+# JS 驱动语言切换特征：href="javascript:;" / onclick 切换 / i18nJson 前端字典
+JS_LANG_SWITCH = re.compile(
+    r"javascript:;\s*[\"']?\s*(?:>|</a).{0,40}?(?:english|中文|français|language|lang)"
+    r"|i18njson|goLanguage|switchLang|changeLanguage|setLanguage|langSwitch",
+    re.I)
+
+
+def detect_js_lang_switch(html_text: str) -> list:
+    """检测是否为 JS 驱动的前端语言切换站（curl 抓不到外文内容，需浏览器核实）。
+    返回命中的语种按钮标签列表。"""
+    labels = []
+    for m in re.finditer(r'(?is)<a\b[^>]*href=["\']javascript:;["\'][^>]*>(.*?)</a>', html_text):
+        txt = re.sub(r"<[^>]+>", " ", m.group(1)).strip().lower()
+        if txt in ("english", "en", "français", "french", "fr", "deutsch", "español",
+                   "русский", "العربية", "português"):
+            labels.append(txt)
+    # i18nJson / 切换函数特征也说明是前端多语言站
+    if not labels and re.search(r"i18njson|goLanguage|switchLang|changeLanguage|setLanguage", html_text, re.I):
+        if re.search(r"english", html_text, re.I):
+            labels.append("english(前端字典)")
+    return labels
+
 EN_STRONG_SIGNALS = ('hreflang="en"', "hreflang='en'", 'hreflang="en-us"',
                      'hreflang="en-gb"', 'lang="en"', "lang='en'", "lang=en-us",
                      'href="/en"', "href='/en'", "english")
@@ -263,6 +308,71 @@ def detect_en_entry(root_url: str, html_text: str) -> tuple[str, str, list]:
     return "中文", "", signals
 
 
+def crawl_subpages(root_url: str, html_text: str, max_pages: int = 4) -> str:
+    """首页之外深挖子页（产品/设备/关于页），合并返回纯文本。
+    设备参数、产能常在二级页。先试常见路径，再解析首页内联的相关链接。"""
+    base = re.match(r"(https?://[^/]+)", root_url)
+    if not base:
+        return ""
+    texts = []
+    seen = set()
+    # 1) 从首页解析含产品/设备/关于关键词的内链
+    cand = []
+    for m in re.finditer(r'(?is)<a\b[^>]*href=["\']([^"\']+)["\']', html_text):
+        href = m.group(1)
+        if re.search(r"about|product|equipment|facility|manufactur|factory|workshop|设备|产品|关于|简介|厂房|车间", href, re.I):
+            u = urllib.parse.urljoin(root_url, href)
+            if urllib.parse.urlparse(u).netloc == urllib.parse.urlparse(root_url).netloc and u not in seen:
+                cand.append(u)
+    # 2) 常见路径盲试补充
+    for p in SUBPAGE_PATHS:
+        cand.append(base.group(1) + p)
+    for u in cand[:max_pages * 3]:
+        if len(texts) >= max_pages or u in seen:
+            continue
+        seen.add(u)
+        st, fu, body = fetch(u, timeout=8)
+        if st == 200 and body and len(body) > 500:
+            texts.append(strip_text(body))
+    return " ".join(texts)
+
+
+def scope_is_manufacturer(scope: str) -> str:
+    """工商经营范围交叉判定：含'制造/生产/加工'→有产能信号；纯'销售/贸易/进出口'→贸易商。
+    用于官网没展示设备时的兜底。返回 有产能/贸易倾向/无信号。"""
+    if not scope:
+        return "无信号"
+    s = scope
+    make = re.search(r"制造|生产|加工|研制|研发|压延|轧制|挤压|锻造|精拉|冷拔", s)
+    trade_only = re.search(r"销售|贸易|批发|进出口|代理|经销", s) and not make
+    if make and not trade_only:
+        return "有产能"
+    if trade_only:
+        return "贸易倾向"
+    return "无信号"
+
+
+def detect_foreign_langs(root_url: str, html_text: str) -> list:
+    """检测非英文外文官网（法/德/西/俄/阿/葡）。对法语区投标尤其有价值。
+    返回命中的语种显示名列表，如 ['法语']。实测路径内容含该语种探针才认。"""
+    low = html_text.lower()
+    base = re.match(r"(https?://[^/]+)", root_url)
+    found = []
+    for code, (paths, probe, disp) in FOREIGN_LANGS.items():
+        # 信号1: hreflang / lang 属性
+        if f'hreflang="{code}"' in low or f'lang="{code}"' in low:
+            found.append(disp)
+            continue
+        # 信号2: 路径 + 内容探针实测
+        if base:
+            for p in paths:
+                st, fu, body = fetch(base.group(1) + p, timeout=6)
+                if st == 200 and body and re.search(probe, body, re.I):
+                    found.append(disp)
+                    break
+    return found
+
+
 # ---------------------------------------------------------------- 主流程
 
 def verify_one(item: dict, cfg: dict) -> dict:
@@ -277,6 +387,8 @@ def verify_one(item: dict, cfg: dict) -> dict:
         "has_product": "无", "has_equipment": "无", "is_manufacturer": "否",
         "language": "未知", "lang_detail": "", "en_path": "",
         "en_status": "无官网", "en_verified_by": [],
+        "foreign_langs": [], "js_lang_switch": [], "scope_judge": "无信号",
+        "subpage_len": 0,
         "checked_at": datetime.now().isoformat(timespec="seconds"),
     }
     if not url:
@@ -312,10 +424,18 @@ def verify_one(item: dict, cfg: dict) -> dict:
     res["content_len"] = len(text)
     low = body.lower()
 
-    # 产品
+    # 子页深挖：产品/设备参数常在二级页，合并进判定文本
+    sub_text = crawl_subpages(final_url or url, body)
+    res["subpage_len"] = len(sub_text)
+    combined_text = text + " " + sub_text
+    combined_low = combined_text.lower()
+
+    # 产品（首页强上下文 + 子页全文补充弱命中）
     pk = cfg.get("product_keywords") or []
     hits_p = find_hits(low, pk)
     strong_p = strong_context(body, hits_p)
+    if sub_text:
+        hits_p = sorted(set(hits_p) | set(find_hits(sub_text.lower(), pk)))
     neg = cfg.get("product_forms", {}).get("negative", []) or []
     neg_hits = find_hits(low, neg)
     hp = grade(strong_p, hits_p)
@@ -326,10 +446,14 @@ def verify_one(item: dict, cfg: dict) -> dict:
     res["product_hits"], res["product_strong"], res["negative_hits"] = hits_p, strong_p, neg_hits
     res["has_product"] = hp
 
-    # 设备
+    # 设备（首页 + 子页合并判定）
     ek = cfg.get("equipment_keywords") or []
     hits_e = find_hits(low, ek)
     strong_e = equip_strong(body, hits_e)
+    if sub_text:
+        sub_strong = equip_strong(sub_text, find_hits(sub_text.lower(), ek))
+        strong_e = sorted(set(strong_e) | set(sub_strong))
+        hits_e = sorted(set(hits_e) | set(find_hits(sub_text.lower(), ek)))
     res["equip_hits"], res["equip_strong"] = hits_e, strong_e
     res["has_equipment"] = grade(strong_e, hits_e)
 
@@ -337,25 +461,51 @@ def verify_one(item: dict, cfg: dict) -> dict:
     ts = cfg.get("trade_signals") or []
     res["trade_hits"] = find_hits(low, ts)
 
-    # 是否制造商
-    if res["has_equipment"] in ("强", "弱") and res["trade_hits"] == []:
+    # 是否制造商（官网设备 + 工商经营范围交叉判定）
+    scope = item.get("businessScope", "") or item.get("business_scope", "")
+    scope_judge = scope_is_manufacturer(scope)
+    res["scope_judge"] = scope_judge
+    has_equip = res["has_equipment"] in ("强", "弱")
+    if has_equip and res["trade_hits"] == []:
         res["is_manufacturer"] = "是"
-    elif res["has_equipment"] in ("强", "弱"):
+    elif has_equip:
         res["is_manufacturer"] = "是"
     elif res["has_product"] in ("强", "弱") and res["trade_hits"]:
         res["is_manufacturer"] = "否"
     elif res["has_product"] in ("强", "弱"):
+        # 产品命中但官网没展示设备 → 用工商经营范围兜底
+        if scope_judge == "有产能":
+            res["is_manufacturer"] = "是"  # 经营范围含制造，官网未展示设备但认定有产能
+        elif scope_judge == "贸易倾向":
+            res["is_manufacturer"] = "否"
+        else:
+            res["is_manufacturer"] = "疑似"
+    elif scope_judge == "有产能":
+        # 产品词未命中，但工商经营范围明确含制造 → 保底疑似（可能是品类词没覆盖全）
         res["is_manufacturer"] = "疑似"
     else:
         res["is_manufacturer"] = "否"
 
-    # 语言
+    # 语言：英文判定 + 其他外文 + JS 切换站识别
     lang, en_path, sigs = detect_en_entry(final_url or url, body)
     res["language"], res["en_path"], res["en_verified_by"] = lang, en_path, sigs
+    foreign = detect_foreign_langs(final_url or url, body)
+    res["foreign_langs"] = foreign
+    # JS 驱动语言切换站：curl 抓不到外文内容，标记需浏览器核实
+    js_labels = detect_js_lang_switch(body)
+    res["js_lang_switch"] = js_labels
     stats = text_stats(text)
     res["lang_detail"] = f"eng={stats['latin_ratio']:.0%} cjk={stats['cjk_ratio']:.0%}"
-    res["en_status"] = ("已验证英文版" if lang == "英文" else
-                        "多语官网" if lang == "多语" else "纯中文官网")
+
+    if lang == "英文":
+        res["en_status"] = "已验证英文版"
+    elif foreign:
+        res["en_status"] = "多语官网(" + "/".join(foreign) + ")"
+    elif js_labels:
+        # JS 前端切换站：很可能有多语但 curl 抓不到，需浏览器核实
+        res["en_status"] = "疑似多语(JS切换,需浏览器核实)"
+    else:
+        res["en_status"] = "纯中文官网"
     return res
 
 
@@ -397,7 +547,7 @@ def write_xlsx(results: list[dict], path: str) -> bool:
     ws = wb.active
     ws.title = "官网内容验证"
     heads = ["公司", "官网", "最终URL", "状态", "产品判定", "设备判定", "是否制造商",
-             "语言", "语言细节", "EN入口", "产品命中", "设备命中", "贸易特征", "负向命中", "备注", "官网类型"]
+             "语言", "语言细节", "EN入口", "外文语种", "JS切换", "经营范围判定", "产品命中", "设备命中", "贸易特征", "负向命中", "备注", "官网类型"]
     ws.append(heads)
     fill = PatternFill("solid", fgColor="1F4E79")
     for c in ws[1]:
@@ -406,23 +556,28 @@ def write_xlsx(results: list[dict], path: str) -> bool:
         c.alignment = Alignment(vertical="center", horizontal="center")
     green = PatternFill("solid", fgColor="E2EFDA")
     yellow = PatternFill("solid", fgColor="FFF2CC")
+    orange = PatternFill("solid", fgColor="FCE4D6")
     for r in results:
         ws.append([
             r["name"], r["website"], r["final_url"], r["fetch_status"],
             r["has_product"], r["has_equipment"], r["is_manufacturer"],
             r["language"], r["lang_detail"], r["en_path"],
+            "/".join(r.get("foreign_langs", [])),
+            ",".join(r.get("js_lang_switch", [])),
+            r.get("scope_judge", "无信号"),
             ", ".join(r["product_hits"][:8]),
             ", ".join(r["equip_hits"][:8]),
             ", ".join(r["trade_hits"]),
             ", ".join(r["negative_hits"]),
             r["fetch_note"],
             "平台店铺页" if r["en_status"] == "平台店铺页" else
-            "独立官网" if r["en_status"] in ("已验证英文版", "多语官网", "纯中文官网") else
+            "独立官网" if r["en_status"] in ("已验证英文版", "多语官网", "纯中文官网") or r["en_status"].startswith("多语官网") else
             "无法访问",
         ])
         row = ws[ws.max_row]
-        ok = r["is_manufacturer"] == "是" and r["en_status"] in ("已验证英文版", "多语官网")
+        ok = r["is_manufacturer"] == "是" and (r["en_status"] in ("已验证英文版", "多语官网") or r["en_status"].startswith("多语官网"))
         maybe = r["is_manufacturer"] == "疑似"
+        js_switch = bool(r.get("js_lang_switch"))
         for c in row:
             c.font = Font(name="微软雅黑")
             c.alignment = Alignment(vertical="center", wrap_text=False)
@@ -430,7 +585,9 @@ def write_xlsx(results: list[dict], path: str) -> bool:
                 c.fill = green
             elif maybe:
                 c.fill = yellow
-    widths = [30, 34, 40, 8, 10, 10, 12, 8, 16, 30, 40, 40, 20, 20, 24, 12]
+            elif js_switch:
+                c.fill = orange
+    widths = [30, 34, 40, 8, 10, 10, 12, 8, 16, 30, 12, 14, 12, 40, 40, 20, 20, 24, 12]
     for i, w in enumerate(widths, 1):
         ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
     ws.freeze_panes = "A2"

@@ -1,0 +1,475 @@
+{
+  "channel": "wechat",
+  "candidates": [
+    {
+      "name": "天津市联众钢管有限公司",
+      "website": "https://www.tuspipe.cn/",
+      "address": "天津市静海区",
+      "products": "高频直缝焊管、API 5L管线钢管、螺旋焊管、镀锌管",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=API5L%20%E7%AE%A1%E7%BA%BF%E7%AE%A1%20%E5%88%B6%E9%80%A0%E5%95%86",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "搜狗微信『记天津市联众钢管有限公司董事长周文军』一文提取；关联主体天津市联众管道科技有限公司(tuspipe.com.cn)"
+    },
+    {
+      "name": "河北龙都管道制造有限公司",
+      "website": "http://longduzhizao.com/",
+      "address": "河北省沧州市盐山县",
+      "products": "螺旋钢管、3PE防腐钢管、涂塑钢管、聚氨酯保温钢管",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%AE%A1%E7%BA%BF%E9%92%A2%E7%AE%A1%20%E7%94%9F%E4%BA%A7%E5%8E%82%E5%AE%B6%20%E6%8E%A8%E8%8D%90",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "公众号软文多次推荐『沧州保温钢管生产厂家优选河北龙都管道制造有限公司』"
+    },
+    {
+      "name": "沧州荣程管道装备制造有限公司",
+      "website": "http://cn.rcpipefittings.com/",
+      "address": "河北省沧州市",
+      "products": "螺旋钢管、聚氨酯保温钢管、钢套钢蒸汽保温管、TPEP防腐钢管、管托支吊架",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%AE%A1%E7%BA%BF%E9%92%A2%E7%AE%A1%20%E7%94%9F%E4%BA%A7%E5%8E%82%E5%AE%B6%20%E6%8E%A8%E8%8D%90",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "cippe展商推荐公众号文章提取；官网主域rcpipefittings.com，cn.为中文版"
+    },
+    {
+      "name": "内蒙古君诚兴业管道有限责任公司",
+      "website": "",
+      "address": "内蒙古自治区",
+      "products": "高性能热煨弯管、管件（石油/天然气/供热管道）",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%AE%A1%E7%BA%BF%E9%92%A2%E7%AE%A1%20%E7%94%9F%E4%BA%A7%E5%8E%82%E5%AE%B6%20%E6%8E%A8%E8%8D%90",
+      "has_english_site": false,
+      "confidence": "low",
+      "notes": "待核实：无独立官网；君诚集团(天津君诚)子公司，以管件弯管为主，管线钢管主体产能待核实"
+    },
+    {
+      "name": "河北神舟钢管制造有限公司",
+      "website": "http://shenzhougg.com/",
+      "address": "河北省沧州市孟村回族自治县",
+      "products": "螺旋钢管、直缝焊管、3PE防腐钢管、环氧粉末防腐",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=3PE%E9%98%B2%E8%85%90%E9%92%A2%E7%AE%A1%20%E7%94%9F%E4%BA%A7%E5%8E%82%E5%AE%B6",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "公众号『神舟钢管公司3PE环氧树脂防腐生产线即将试生产』提取；另有官网hb-sz.com/hbsz03.com"
+    },
+    {
+      "name": "河北汇科钢管有限公司",
+      "website": "https://www.huikepipe.com/",
+      "address": "河北省沧州市",
+      "products": "无缝钢管、美标API 5L管线管、3PE防腐项目",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=3PE%E9%98%B2%E8%85%90%E9%92%A2%E7%AE%A1%20%E7%94%9F%E4%BA%A7%E5%8E%82%E5%AE%B6",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "公众号『河北汇科钢管有限公司3PE防腐项目进展顺利』提取"
+    },
+    {
+      "name": "山东禹王管业有限公司",
+      "website": "",
+      "address": "山东省潍坊市",
+      "products": "3PE防腐钢管（公众号称）；亦见PCCP混凝土管榜单，产品线待核实",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=3PE%E9%98%B2%E8%85%90%E9%92%A2%E7%AE%A1%20%E7%94%9F%E4%BA%A7%E5%8E%82%E5%AE%B6",
+      "has_english_site": false,
+      "confidence": "low",
+      "notes": "待核实：无独立官网；与PCCP十大品牌『禹王 山东禹王管业有限公司』同名，疑似预应力混凝土管厂，3PE防腐钢管产能需工商核验"
+    },
+    {
+      "name": "云南双清螺旋钢管有限公司",
+      "website": "",
+      "address": "云南省",
+      "products": "双面埋弧焊螺旋钢管",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E8%9E%BA%E6%97%8B%E9%92%A2%E7%AE%A1%20%E5%8E%82%E5%AE%B6%20%E5%A4%A9%E7%84%B6%E6%B0%94%E7%AE%A1%E9%81%93",
+      "has_english_site": false,
+      "confidence": "low",
+      "notes": "待核实：未找到独立官网；关联主体四川双清螺旋钢管有限公司(sqpipe.com)"
+    },
+    {
+      "name": "沧州市鑫宜达钢管集团股份有限公司",
+      "website": "http://www.czxydgd.com/",
+      "address": "河北省沧州市",
+      "products": "螺旋钢管、3PE防腐钢管、TPEP涂塑钢管、保温钢管",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E8%9E%BA%E6%97%8B%E9%92%A2%E7%AE%A1%20%E5%8E%82%E5%AE%B6%20%E5%A4%A9%E7%84%B6%E6%B0%94%E7%AE%A1%E9%81%93",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "公众号『鑫宜达钢管集团:专业生产螺旋钢管』提取；另有沧州鑫宜达螺旋钢管道有限公司站点xyd86.com"
+    },
+    {
+      "name": "河北海乾威钢管有限公司",
+      "website": "https://www.hspc.cc/",
+      "address": "河北省沧州市",
+      "products": "大口径直缝双面埋弧焊钢管(LSAW)、API 5L管线管",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%9B%B4%E7%BC%9D%E7%84%8A%E7%AE%A1%20%E5%9F%8B%E8%99%B9%E7%84%8A%20%E5%8E%82%E5%AE%B6",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "公众号会员展播『河北海乾威钢管——大口径直缝双面埋弧焊钢管专业生产厂家』提取"
+    },
+    {
+      "name": "天长市康弘石油管材有限公司",
+      "website": "https://www.kanghongpipe.com/",
+      "address": "安徽省天长市",
+      "products": "石油管材、API 5CT石油套管、管线管",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%9F%B3%E6%B2%B9%E5%A5%97%E7%AE%A1%20%E6%97%A0%E7%BC%9D%E9%92%A2%E7%AE%A1%20%E5%8E%82%E5%AE%B6",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "公众号专文介绍『天长市康弘石油管材有限公司』提取"
+    },
+    {
+      "name": "扬州龙川钢管有限公司",
+      "website": "https://www.lontrinee.com/",
+      "address": "江苏省扬州市江都区",
+      "products": "无缝钢管、API 5L管线管、石油套管、锅炉管（年产能约70万吨）",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%9F%B3%E6%B2%B9%E8%A3%82%E5%8C%96%E7%AE%A1%20%E6%97%A0%E7%BC%9D%E9%92%A2%E7%AE%A1%20%E5%8E%82%E5%AE%B6",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "公众号确认出席国际海洋油气大会一文提取；规模偏大(70万吨无缝)，归属需复核；官网现名扬州龙川能源装备有限公司"
+    },
+    {
+      "name": "山东磐金钢管制造有限公司",
+      "website": "https://www.sdpanjin.com/",
+      "address": "山东省潍坊市",
+      "products": "无缝钢管、管线管、石油套管",
+      "source_url": "https://www.tgdwfgg.com/hyxw/595.html",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "2025中国工程管道管材综合实力供应商百强(第30位)榜单转载提取；民营无缝管厂"
+    },
+    {
+      "name": "山东金宝诚管业有限公司",
+      "website": "https://www.kingpipe.com/",
+      "address": "山东省聊城市",
+      "products": "无缝钢管、管线管、锅炉管、汽车专用管",
+      "source_url": "https://www.tgdwfgg.com/hyxw/595.html",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "供应商百强榜单(第40位)提取；关联聊城中宝无缝钢管(zhongbaopipe.com)"
+    },
+    {
+      "name": "江苏诚德钢管股份有限公司",
+      "website": "http://www.cdgroup.cn/",
+      "address": "江苏省扬州市江都区",
+      "products": "无缝钢管、管线管、石油套管、合金管",
+      "source_url": "https://www.tgdwfgg.com/hyxw/595.html",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "供应商百强榜单(第45位)提取；曾筹划上市未果，民营"
+    },
+    {
+      "name": "中兴能源装备有限公司",
+      "website": "https://www.zxnyzb.com/",
+      "address": "江苏省南通市",
+      "products": "不锈钢无缝管、特种管件、钢管加工",
+      "source_url": "https://www.tgdwfgg.com/hyxw/595.html",
+      "has_english_site": false,
+      "confidence": "low",
+      "notes": "以不锈钢管/管件为主，API 5L碳钢管线管占比待核实"
+    },
+    {
+      "name": "盛德鑫泰新材料股份有限公司",
+      "website": "https://www.shengdechina.com/",
+      "address": "江苏省常州市",
+      "products": "小口径无缝钢管、高压锅炉管、油井管",
+      "source_url": "https://www.tgdwfgg.com/hyxw/595.html",
+      "has_english_site": false,
+      "confidence": "low",
+      "notes": "创业板上市公司(300881)，属上市钢企，规模归属需复核；主业锅炉管/油井管非大口径管线管"
+    },
+    {
+      "name": "天津君诚管道实业集团有限公司",
+      "website": "https://www.jccopipe.com/",
+      "address": "天津市静海区",
+      "products": "螺旋钢管、直缝焊管、镀锌管、钢塑复合管、管道防腐",
+      "source_url": "https://www.tgdwfgg.com/hyxw/595.html",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "供应商百强榜单(第15位)提取；民营集团，管线管为产品线之一"
+    },
+    {
+      "name": "天津源泰德润钢管制造集团有限公司",
+      "website": "https://www.ytdrgg.com/",
+      "address": "天津市静海区",
+      "products": "方矩管、直缝焊管、螺旋焊管、镀锌管",
+      "source_url": "https://www.tgdwfgg.com/hyxw/595.html",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "供应商百强榜单(第4位)提取；方矩管占比高，管线管产能待核实"
+    },
+    {
+      "name": "林州凤宝管业有限公司",
+      "website": "http://www.fengbaopipe.com/",
+      "address": "河南省林州市",
+      "products": "无缝钢管、API 5L管线管、石油套管",
+      "source_url": "https://www.tgdwfgg.com/hyxw/595.html",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "钢管十大品牌/供应商百强榜单提取；民营特钢无缝管厂"
+    },
+    {
+      "name": "江苏通宇钢管集团有限公司",
+      "website": "http://www.tongyusteelpipe.com/",
+      "address": "江苏省无锡市",
+      "products": "螺旋埋弧焊钢管、JCOE直缝埋弧焊钢管、油气输送管线管、钢管防腐",
+      "source_url": "https://www.tgdwfgg.com/hyxw/595.html",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "燃气管道十大品牌/供应商百强(第60位)提取；管线钢管主业"
+    },
+    {
+      "name": "沧州市螺旋钢管集团有限公司",
+      "website": "http://www.czlxgg.com.cn/",
+      "address": "河北省沧州市",
+      "products": "螺旋钢管、双面埋弧焊钢管、直缝焊管、防腐钢管",
+      "source_url": "https://www.tgdwfgg.com/hyxw/595.html",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "供应商百强榜单(第64位)提取；20年螺旋管专业厂，另有cangluo-group.com英文站"
+    },
+    {
+      "name": "天津市朋展钢管有限公司",
+      "website": "https://www.tjpengzhan.cn/",
+      "address": "天津市静海区",
+      "products": "螺旋缝双面埋弧焊钢管（石油/天然气/民用）",
+      "source_url": "https://www.tgdwfgg.com/hyxw/595.html",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "供应商百强榜单(第74位)提取；另有官网luoxuanguancn.com"
+    },
+    {
+      "name": "山东胜利钢管有限公司",
+      "website": "http://www.slspcn.com/",
+      "address": "山东省淄博市",
+      "products": "螺旋焊管、ERW焊管、管线钢管",
+      "source_url": "https://www.tgdwfgg.com/hyxw/595.html",
+      "has_english_site": false,
+      "confidence": "low",
+      "notes": "疑似港股上市企业胜利油气管道控股(slogp.com)体系内，上市归属需复核"
+    },
+    {
+      "name": "邯郸正大制管集团股份有限公司",
+      "website": "https://www.hdzdzg.com/",
+      "address": "河北省邯郸市成安县",
+      "products": "直缝焊管、螺旋焊管、镀锌管、燃气专用管、钢塑复合管",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=API5L%20%E7%AE%A1%E7%BA%BF%E7%AE%A1%20%E5%88%B6%E9%80%A0%E5%95%86",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "公众号『邯郸知名民企——正大制管』提取；民营大型焊管集团"
+    },
+    {
+      "name": "河北沧海核装备科技股份有限公司",
+      "website": "http://www.canghaicc.cn/",
+      "address": "河北省沧州市盐山县",
+      "products": "直缝埋弧焊钢管、管件、管道防腐（入围中石化焊管生产商框架）",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%9B%B4%E7%BC%9D%E7%84%8A%E7%AE%A1%20%E5%9F%8B%E8%99%B9%E7%84%8A%20%E5%8E%82%E5%AE%B6",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "公众号『沧海核装直缝埋弧焊钢管成功入围中石化第十期组采焊管生产商年度框架』提取"
+    },
+    {
+      "name": "山东沃特管业股份有限公司",
+      "website": "https://www.wotegy.com/",
+      "address": "山东省淄博市",
+      "products": "3PE防腐钢管、防腐管道、涂塑管",
+      "source_url": "https://www.tgdwfgg.com/hyxw/595.html",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "榜单同时出现在PCCP混凝土管十大与防腐产品线，钢管防腐主业明确"
+    },
+    {
+      "name": "河北友犇管业有限公司",
+      "website": "https://www.coopipe.com/",
+      "address": "河北省沧州市",
+      "products": "3PE防腐钢管、涂塑复合钢管、保温钢管",
+      "source_url": "https://www.sohu.com/a/1080128757_122892271",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "行业软文(搜狐转载公众号文)提及的3PE防腐钢管厂家之一"
+    },
+    {
+      "name": "天津昕田管道科技有限公司",
+      "website": "http://www.tjxtpipe.com/",
+      "address": "天津市",
+      "products": "3PE防腐钢管、热镀锌钢管、防腐加工",
+      "source_url": "https://www.sohu.com/a/1080128757_122892271",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "3PE防腐钢管加工专利持有企业；公众号转载软文提取"
+    },
+    {
+      "name": "山东茂盛管业有限公司",
+      "website": "http://www.sdmsgy.com/",
+      "address": "山东省",
+      "products": "3PE防腐管、防腐管道",
+      "source_url": "https://www.sohu.com/a/1080128757_122892271",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "防腐管道软文点名厂家"
+    },
+    {
+      "name": "河北图远管道制造有限公司",
+      "website": "http://hbty8888.com/",
+      "address": "河北省沧州市",
+      "products": "3PE防腐钢管、防腐保温管道",
+      "source_url": "https://www.sohu.com/a/1083230496_122990444",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "碳钢/防腐管道合规生产企业软文点名"
+    },
+    {
+      "name": "河南银泽钢铁有限公司",
+      "website": "http://www.yinzegangtie.com/",
+      "address": "河南省郑州市",
+      "products": "螺旋管、焊管、钢材加工",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E8%9E%BA%E6%97%8B%E9%92%A2%E7%AE%A1%20%E4%BC%98%E8%B4%A8%E4%BE%9B%E5%BA%94%E5%95%86",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "公众号『十佳企业风采展播|河南银泽钢铁』提取；螺旋管主业"
+    },
+    {
+      "name": "常州市天展钢管有限公司",
+      "website": "https://tenjan.cn/",
+      "address": "江苏省常州市",
+      "products": "精密无缝钢管、冷拔/精轧无缝钢管、异型管",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%97%A0%E7%BC%9D%E9%92%A2%E7%AE%A1%20%E5%8E%82%E5%AE%B6%20%E6%8E%A8%E8%8D%90",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "公众号『靠谱的无缝钢管厂家推荐:常州市天展钢管』提取；小口径精密管为主，大口径管线管待核实"
+    },
+    {
+      "name": "河北宇刚管道制造有限公司",
+      "website": "https://abcyugang.com/",
+      "address": "河北省沧州市盐山县",
+      "products": "螺旋钢管、直缝钢管、无缝钢管、防腐管道、保温管道",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E8%9E%BA%E6%97%8B%E9%92%A2%E7%AE%A1%20%E5%8E%82%E5%AE%B6%20%E5%A4%A9%E7%84%B6%E6%B0%94%E7%AE%A1%E9%81%93",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "《诚信燕赵》公众号专题报道；盐山管道产业集群企业"
+    },
+    {
+      "name": "山东汇通钢管制造有限公司",
+      "website": "http://www.huitongjituan.com/",
+      "address": "山东省聊城市",
+      "products": "无缝钢管、石油套管、油管、钻杆料（汇通集团）",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%9F%B3%E6%B2%B9%E5%A5%97%E7%AE%A1%20%E6%97%A0%E7%BC%9D%E9%92%A2%E7%AE%A1%20%E5%8E%82%E5%AE%B6",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "公众号『汇通集团——冀鲁豫地区规模最大的无缝钢管生产厂家』提取；民营大型无缝管集团"
+    },
+    {
+      "name": "天津博爱管道科技集团有限公司",
+      "website": "https://bagg.cn/",
+      "address": "天津市",
+      "products": "螺旋钢管、直缝焊管、防腐管道、管道科技",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E8%9E%BA%E6%97%8B%E7%84%8A%E7%AE%A1%20%E4%BE%9B%E5%BA%94%E5%95%86%20%E7%AE%A1%E7%BA%BF",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "公众号『企业之窗|天津博爱管道科技集团有限公司』及展商风采提取"
+    },
+    {
+      "name": "天津津鑫源管道科技有限公司",
+      "website": "http://jxygd.cn/",
+      "address": "天津市",
+      "products": "涂塑钢管、防腐钢管、保温管道",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%AE%A1%E7%BA%BF%E9%92%A2%E7%AE%A1%20%E4%BC%98%E7%A7%80%E4%BE%9B%E5%BA%94%E5%95%86",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "公众号『优质供应商推荐:天津津鑫源管道科技有限公司』提取"
+    },
+    {
+      "name": "天津市瑞海翔防腐钢管有限公司",
+      "website": "http://rhxffgg.com/",
+      "address": "天津市",
+      "products": "防腐钢管、环氧煤沥青防腐、管道防腐加工",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E4%BF%9D%E6%B8%A9%E9%92%A2%E7%AE%A1%20%E5%8E%82%E5%AE%B6%20%E6%8E%A8%E8%8D%90",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "公众号『管材推荐/天津市瑞海翔防腐钢管有限公司』提取；以防腐加工为主"
+    },
+    {
+      "name": "江苏胜辉管道科技有限公司",
+      "website": "",
+      "address": "江苏省",
+      "products": "管道产品（具体品类待核实）",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E8%9E%BA%E6%97%8B%E7%84%8A%E7%AE%A1%20%E4%BE%9B%E5%BA%94%E5%95%86%20%E7%AE%A1%E7%BA%BF",
+      "has_english_site": false,
+      "confidence": "low",
+      "notes": "待核实：公众号『优质供应商推荐:江苏胜辉管道科技有限公司』仅提取到公司名，未找到独立官网与产品资料"
+    },
+    {
+      "name": "骜建管道装备制造有限公司",
+      "website": "",
+      "address": "",
+      "products": "管道装备（具体品类待核实）",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%AE%A1%E7%BA%BF%E9%92%A2%E7%AE%A1%20%E4%BC%98%E7%A7%80%E4%BE%9B%E5%BA%94%E5%95%86",
+      "has_english_site": false,
+      "confidence": "low",
+      "notes": "待核实：公众号优质供应商推荐文章仅提取到公司名，无独立官网；名称与河北恒泰管道装备高度相似，疑为同源信息"
+    },
+    {
+      "name": "河北驰源管道设备制造有限公司",
+      "website": "",
+      "address": "河北省",
+      "products": "管道设备（具体品类待核实）",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%AE%A1%E7%BA%BF%E7%AE%A1%20%E4%BE%9B%E5%BA%94%E5%95%86%20%E6%8E%A8%E8%8D%90",
+      "has_english_site": false,
+      "confidence": "low",
+      "notes": "待核实：公众号『优质供应商推荐:河北驰源管道设备制造有限公司』提取；未找到独立官网，与河北诚源管道(同集群)疑有名称混淆"
+    },
+    {
+      "name": "聊城京鑫无缝管制造有限公司",
+      "website": "",
+      "address": "山东省聊城市",
+      "products": "无缝钢管",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%97%A0%E7%BC%9D%E9%92%A2%E7%AE%A1%20%E5%8E%82%E5%AE%B6%20%E6%8E%A8%E8%8D%90",
+      "has_english_site": false,
+      "confidence": "low",
+      "notes": "待核实：公众号『推荐|聊城京鑫无缝管制造有限公司』提取；未找到独立官网"
+    },
+    {
+      "name": "安徽华东钢管有限公司",
+      "website": "",
+      "address": "安徽省",
+      "products": "特种无缝钢管",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%97%A0%E7%BC%9D%E9%92%A2%E7%AE%A1%20%E5%8E%82%E5%AE%B6%20%E6%8E%A8%E8%8D%90",
+      "has_english_site": false,
+      "confidence": "low",
+      "notes": "待核实：公众号展商推荐『安徽华东钢管有限公司:高品质特种无缝钢管供应商』提取；未找到独立官网"
+    },
+    {
+      "name": "成都彭州京华制管有限公司",
+      "website": "",
+      "address": "四川省成都市彭州市",
+      "products": "热镀锌管、螺旋管、高频直缝焊管、燃气专用管（华岐牌）",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E7%9B%B4%E7%BC%9D%E7%84%8A%E7%AE%A1%20%E5%9F%8B%E8%99%B9%E7%84%8A%20%E5%8E%82%E5%AE%B6",
+      "has_english_site": false,
+      "confidence": "low",
+      "notes": "待核实：京华制管集团成员厂，未找到本厂独立官网（集团站hsjh.com属衡水京华）"
+    },
+    {
+      "name": "四川世纪佳丰实业有限公司",
+      "website": "",
+      "address": "四川省",
+      "products": "无缝钢管、螺旋钢管、热镀锌无缝管、燃气专用管、注浆管",
+      "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E8%9E%BA%E6%97%8B%E9%92%A2%E7%AE%A1%20%E4%BC%98%E8%B4%A8%E4%BE%9B%E5%BA%94%E5%95%86",
+      "has_english_site": false,
+      "confidence": "low",
+      "notes": "待核实：公众号供应商名录提取；未找到独立官网，疑似贸易/加工型"
+    },
+    {
+      "name": "浙江泰富无缝钢管有限公司",
+      "website": "",
+      "address": "浙江省",
+      "products": "无缝钢管",
+      "source_url": "https://www.tgdwfgg.com/hyxw/595.html",
+      "has_english_site": false,
+      "confidence": "low",
+      "notes": "待核实：供应商百强榜单(第34位)提取；未找到可靠独立官网，名称易与中信泰富特钢混淆"
+    },
+    {
+      "name": "沧州友诚管业有限公司",
+      "website": "http://www.cz-youcheng.com/",
+      "address": "河北省沧州市",
+      "products": "3PE防腐钢管、涂塑复合钢管、螺旋钢管、TPEP防腐",
+      "source_url": "https://www.sohu.com/a/1083230496_122990444",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "防腐管道软文/产品页点名厂家；3PE防腐钢管为主业之一"
+    }
+  ]
+}

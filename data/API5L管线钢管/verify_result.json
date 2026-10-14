@@ -25,13 +25,19 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "否",
   "language": "中文",
   "lang_detail": "eng=14% cjk=64%",
   "en_path": "",
-  "en_status": "纯中文官网",
+  "en_status": "疑似多语(JS切换,需浏览器核实)",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:44:25"
+  "foreign_langs": [],
+  "js_lang_switch": [
+   "english(前端字典)"
+  ],
+  "scope_judge": "贸易倾向",
+  "subpage_len": 5936,
+  "checked_at": "2026-10-14T18:57:35"
  },
  {
   "name": "沧州广晟钢管制造有限公司",
@@ -56,13 +62,17 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "中文",
   "lang_detail": "eng=8% cjk=69%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:44:27"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 3187,
+  "checked_at": "2026-10-14T18:58:39"
  },
  {
   "name": "沧州众标管道制造有限公司",
@@ -92,13 +102,17 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "中文",
   "lang_detail": "eng=4% cjk=76%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:44:28"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 5056,
+  "checked_at": "2026-10-14T18:59:11"
  },
  {
   "name": "沧州广汇管业有限公司",
@@ -108,11 +122,16 @@
   "fetch_note": "",
   "content_len": 2002,
   "product_hits": [
+   "FBE",
+   "X42",
+   "X52",
+   "X60",
    "无缝钢管",
    "环氧煤沥青"
   ],
   "product_strong": [],
   "equip_hits": [
+   "防腐生产线",
    "静电喷涂"
   ],
   "equip_strong": [],
@@ -128,7 +147,11 @@
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:44:31"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 5311,
+  "checked_at": "2026-10-14T19:00:57"
  },
  {
   "name": "盐山盛泰钢管有限公司",
@@ -162,7 +185,11 @@
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:44:33"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "贸易倾向",
+  "subpage_len": 1676,
+  "checked_at": "2026-10-14T19:01:28"
  },
  {
   "name": "河北天元钢管制造有限公司",
@@ -185,21 +212,25 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "中文",
   "lang_detail": "eng=4% cjk=69%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:44:52"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:05:34"
  },
  {
   "name": "沧州市螺旋钢管集团有限公司",
   "website": "http://www.czlxg.com/",
   "final_url": "http://www.czlxg.com/",
-  "fetch_status": 200,
-  "fetch_note": "",
-  "content_len": 15,
+  "fetch_status": -1,
+  "fetch_note": "官网无法访问（保留地址待人工核实）",
+  "content_len": 0,
   "product_hits": [],
   "product_strong": [],
   "equip_hits": [],
@@ -208,111 +239,98 @@
   "negative_hits": [],
   "has_product": "无",
   "has_equipment": "无",
-  "is_manufacturer": "否",
-  "language": "中文",
-  "lang_detail": "eng=0% cjk=87%",
+  "is_manufacturer": "待核实",
+  "language": "未知",
+  "lang_detail": "",
   "en_path": "",
-  "en_status": "纯中文官网",
+  "en_status": "官网无法访问",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:44:53"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:06:34"
  },
  {
   "name": "沧州鑫晨源管道有限公司",
   "website": "http://cn.xcypipe.com/",
   "final_url": "http://cn.xcypipe.com/",
-  "fetch_status": 200,
-  "fetch_note": "",
-  "content_len": 1914,
-  "product_hits": [
-   "3LPE",
-   "FBE",
-   "SMLS",
-   "无缝钢管"
-  ],
-  "product_strong": [],
-  "equip_hits": [],
-  "equip_strong": [],
-  "trade_hits": [],
-  "negative_hits": [
-   "fitting",
-   "flange",
-   "三通",
-   "弯头",
-   "法兰",
-   "焊管",
-   "直缝焊管",
-   "管件"
-  ],
-  "has_product": "弱",
-  "has_equipment": "无",
-  "is_manufacturer": "疑似",
-  "language": "中文",
-  "lang_detail": "eng=10% cjk=67%",
-  "en_path": "",
-  "en_status": "纯中文官网",
-  "en_verified_by": [],
-  "checked_at": "2026-10-12T12:44:58"
- },
- {
-  "name": "沧州恒诚管道有限公司",
-  "website": "http://www.hbhcbwg.com/",
-  "final_url": "http://www.hbhcbwg.com/",
-  "fetch_status": 200,
-  "fetch_note": "",
-  "content_len": 1538,
-  "product_hits": [
-   "FBE"
-  ],
+  "fetch_status": -1,
+  "fetch_note": "官网无法访问（保留地址待人工核实）",
+  "content_len": 0,
+  "product_hits": [],
   "product_strong": [],
   "equip_hits": [],
   "equip_strong": [],
   "trade_hits": [],
   "negative_hits": [],
-  "has_product": "弱",
+  "has_product": "无",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
-  "language": "中文",
-  "lang_detail": "eng=7% cjk=1%",
+  "is_manufacturer": "待核实",
+  "language": "未知",
+  "lang_detail": "",
   "en_path": "",
-  "en_status": "纯中文官网",
-  "en_verified_by": [
-   "blind:/en/-not-en",
-   "blind:/en-not-en",
-   "blind:/en/index.html-not-en",
-   "blind:/en/products-not-en"
-  ],
-  "checked_at": "2026-10-12T12:45:35"
+  "en_status": "官网无法访问",
+  "en_verified_by": [],
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:06:54"
+ },
+ {
+  "name": "沧州恒诚管道有限公司",
+  "website": "http://www.hbhcbwg.com/",
+  "final_url": "http://www.hbhcbwg.com/",
+  "fetch_status": -1,
+  "fetch_note": "官网无法访问（保留地址待人工核实）",
+  "content_len": 0,
+  "product_hits": [],
+  "product_strong": [],
+  "equip_hits": [],
+  "equip_strong": [],
+  "trade_hits": [],
+  "negative_hits": [],
+  "has_product": "无",
+  "has_equipment": "无",
+  "is_manufacturer": "待核实",
+  "language": "未知",
+  "lang_detail": "",
+  "en_path": "",
+  "en_status": "官网无法访问",
+  "en_verified_by": [],
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:07:14"
  },
  {
   "name": "河北神舟钢管制造有限公司",
   "website": "http://www.shenzhougg.com/",
   "final_url": "http://www.shenzhougg.com/",
-  "fetch_status": 200,
-  "fetch_note": "",
-  "content_len": 2624,
-  "product_hits": [
-   "环氧煤沥青"
-  ],
+  "fetch_status": -1,
+  "fetch_note": "官网无法访问（保留地址待人工核实）",
+  "content_len": 0,
+  "product_hits": [],
   "product_strong": [],
-  "equip_hits": [
-   "防腐生产线"
-  ],
-  "equip_strong": [
-   "防腐生产线"
-  ],
+  "equip_hits": [],
+  "equip_strong": [],
   "trade_hits": [],
-  "negative_hits": [
-   "焊管"
-  ],
-  "has_product": "弱",
-  "has_equipment": "强",
-  "is_manufacturer": "是",
-  "language": "中文",
-  "lang_detail": "eng=4% cjk=73%",
+  "negative_hits": [],
+  "has_product": "无",
+  "has_equipment": "无",
+  "is_manufacturer": "待核实",
+  "language": "未知",
+  "lang_detail": "",
   "en_path": "",
-  "en_status": "纯中文官网",
+  "en_status": "官网无法访问",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:45:37"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:07:35"
  },
  {
   "name": "沧州友诚管业有限公司",
@@ -333,14 +351,21 @@
   "language": "中文",
   "lang_detail": "eng=7% cjk=1%",
   "en_path": "",
-  "en_status": "纯中文官网",
+  "en_status": "多语官网(法语/阿拉伯语)",
   "en_verified_by": [
    "blind:/en/-not-en",
    "blind:/en-not-en",
    "blind:/en/index.html-not-en",
    "blind:/en/products-not-en"
   ],
-  "checked_at": "2026-10-12T12:45:39"
+  "foreign_langs": [
+   "法语",
+   "阿拉伯语"
+  ],
+  "js_lang_switch": [],
+  "scope_judge": "贸易倾向",
+  "subpage_len": 3097,
+  "checked_at": "2026-10-14T19:07:55"
  },
  {
   "name": "沧州恒泰泽远防腐管道有限公司",
@@ -352,7 +377,8 @@
   "product_hits": [
    "API 5L",
    "FBE",
-   "line pipe"
+   "line pipe",
+   "pipeline pipe"
   ],
   "product_strong": [],
   "equip_hits": [],
@@ -367,7 +393,7 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "英文",
   "lang_detail": "eng=82% cjk=0%",
   "en_path": "https://www.htzylinedpipes.com/",
@@ -376,7 +402,13 @@
    "hreflang:lang=\"en\"",
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:45:41"
+  "foreign_langs": [],
+  "js_lang_switch": [
+   "english(前端字典)"
+  ],
+  "scope_judge": "有产能",
+  "subpage_len": 24500,
+  "checked_at": "2026-10-14T19:08:06"
  },
  {
   "name": "沧州宏钜管道装备有限公司",
@@ -388,6 +420,7 @@
   "product_hits": [
    "FBE",
    "无缝钢管",
+   "熔结环氧粉末",
    "环氧煤沥青"
   ],
   "product_strong": [
@@ -411,40 +444,38 @@
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:45:42"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 2996,
+  "checked_at": "2026-10-14T19:10:28"
  },
  {
   "name": "沧州哲航管道有限公司",
   "website": "http://www.czzhpipe.com/",
   "final_url": "http://www.czzhpipe.com/",
-  "fetch_status": 200,
-  "fetch_note": "",
-  "content_len": 5274,
-  "product_hits": [
-   "无缝钢管",
-   "环氧煤沥青"
-  ],
+  "fetch_status": -1,
+  "fetch_note": "官网无法访问（保留地址待人工核实）",
+  "content_len": 0,
+  "product_hits": [],
   "product_strong": [],
   "equip_hits": [],
   "equip_strong": [],
   "trade_hits": [],
-  "negative_hits": [
-   "三通",
-   "弯头",
-   "法兰",
-   "焊管",
-   "直缝焊管",
-   "管件"
-  ],
-  "has_product": "弱",
+  "negative_hits": [],
+  "has_product": "无",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
-  "language": "中文",
-  "lang_detail": "eng=7% cjk=73%",
+  "is_manufacturer": "待核实",
+  "language": "未知",
+  "lang_detail": "",
   "en_path": "",
-  "en_status": "纯中文官网",
+  "en_status": "官网无法访问",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:45:45"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:11:26"
  },
  {
   "name": "沧州市永成管业有限公司",
@@ -473,13 +504,17 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "否",
   "language": "中文",
   "lang_detail": "eng=7% cjk=70%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:45:46"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "贸易倾向",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:11:27"
  },
  {
   "name": "沧州泰汇管道装备有限公司",
@@ -511,13 +546,17 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "否",
   "language": "中文",
   "lang_detail": "eng=5% cjk=74%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:45:48"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "贸易倾向",
+  "subpage_len": 4437,
+  "checked_at": "2026-10-14T19:11:51"
  },
  {
   "name": "河北五化管道装备制造有限公司",
@@ -527,6 +566,7 @@
   "fetch_note": "",
   "content_len": 2892,
   "product_hits": [
+   "无缝钢管",
    "环氧煤沥青",
    "输气管",
    "输气管道"
@@ -541,13 +581,17 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "中文",
   "lang_detail": "eng=5% cjk=74%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:45:49"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 4933,
+  "checked_at": "2026-10-14T19:12:12"
  },
  {
   "name": "沧州盛丰管道防腐保温工程有限公司",
@@ -559,27 +603,36 @@
   "product_hits": [
    "FBE",
    "X60",
+   "line pipe",
+   "pipeline pipe",
    "无缝钢管",
+   "熔结环氧粉末",
    "石油套管"
   ],
   "product_strong": [
    "FBE"
   ],
-  "equip_hits": [],
+  "equip_hits": [
+   "防腐生产线"
+  ],
   "equip_strong": [],
   "trade_hits": [],
   "negative_hits": [
    "管件"
   ],
   "has_product": "弱",
-  "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "has_equipment": "弱",
+  "is_manufacturer": "是",
   "language": "中文",
   "lang_detail": "eng=7% cjk=71%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:45:50"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 6514,
+  "checked_at": "2026-10-14T19:12:34"
  },
  {
   "name": "河北图远管道制造有限公司",
@@ -587,9 +640,11 @@
   "final_url": "http://www.tygd006.com/",
   "fetch_status": 200,
   "fetch_note": "",
-  "content_len": 2875,
+  "content_len": 2850,
   "product_hits": [
+   "FBE",
    "无缝钢管",
+   "熔结环氧粉末",
    "石油套管",
    "管线管"
   ],
@@ -613,7 +668,11 @@
   "en_verified_by": [
    "hreflang:lang=\"en\""
   ],
-  "checked_at": "2026-10-12T12:46:03"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 10135,
+  "checked_at": "2026-10-14T19:14:15"
  },
  {
   "name": "中洲特钢（山东）有限公司",
@@ -647,7 +706,11 @@
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:46:13"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "贸易倾向",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:14:46"
  },
  {
   "name": "山东茂盛管业有限公司",
@@ -672,7 +735,7 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "英文",
   "lang_detail": "eng=7% cjk=70%",
   "en_path": "http://en.sdmsgy.com/",
@@ -680,7 +743,11 @@
   "en_verified_by": [
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:46:14"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 4366,
+  "checked_at": "2026-10-14T19:15:10"
  },
  {
   "name": "河北汇科钢管有限公司",
@@ -713,15 +780,19 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "英文",
   "lang_detail": "eng=5% cjk=70%",
-  "en_path": "https://en.huikepipe.com/",
+  "en_path": "http://en.huikepipe.com/",
   "en_status": "已验证英文版",
   "en_verified_by": [
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:46:17"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 4887,
+  "checked_at": "2026-10-14T19:15:31"
  },
  {
   "name": "河北嘉锐斯科石油专用管有限公司",
@@ -741,7 +812,7 @@
   "negative_hits": [],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "英文",
   "lang_detail": "eng=2% cjk=67%",
   "en_path": "http://english.gariscocasingpipe.com/",
@@ -749,7 +820,11 @@
   "en_verified_by": [
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:46:18"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 6234,
+  "checked_at": "2026-10-14T19:18:17"
  },
  {
   "name": "沧州润航管业有限公司",
@@ -757,24 +832,31 @@
   "final_url": "https://www.runhangpipe.com/",
   "fetch_status": 200,
   "fetch_note": "",
-  "content_len": 437,
-  "product_hits": [],
+  "content_len": 459,
+  "product_hits": [
+   "API 5L",
+   "FBE"
+  ],
   "product_strong": [],
   "equip_hits": [],
   "equip_strong": [],
   "trade_hits": [],
   "negative_hits": [],
-  "has_product": "无",
+  "has_product": "弱",
   "has_equipment": "无",
   "is_manufacturer": "否",
   "language": "英文",
-  "lang_detail": "eng=9% cjk=1%",
+  "lang_detail": "eng=10% cjk=5%",
   "en_path": "https://www.runhangpipe.com/en/",
   "en_status": "已验证英文版",
   "en_verified_by": [
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:46:18"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "贸易倾向",
+  "subpage_len": 1335,
+  "checked_at": "2026-10-14T19:18:39"
  },
  {
   "name": "河北涛发钢管制造有限公司",
@@ -807,13 +889,17 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "中文",
   "lang_detail": "eng=4% cjk=72%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:46:19"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 6685,
+  "checked_at": "2026-10-14T19:19:53"
  },
  {
   "name": "天津诚旺管业有限公司",
@@ -850,7 +936,11 @@
   "en_verified_by": [
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:46:21"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 3275,
+  "checked_at": "2026-10-14T19:21:33"
  },
  {
   "name": "天津昕田管道科技有限公司",
@@ -870,13 +960,17 @@
   ],
   "has_product": "无",
   "has_equipment": "无",
-  "is_manufacturer": "否",
+  "is_manufacturer": "疑似",
   "language": "中文",
   "lang_detail": "eng=5% cjk=72%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:46:24"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 4626,
+  "checked_at": "2026-10-14T19:21:57"
  },
  {
   "name": "沧州宏宝管道有限公司",
@@ -899,7 +993,11 @@
   "en_path": "",
   "en_status": "平台店铺页",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:46:26"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:24:26"
  },
  {
   "name": "天津天应泰钢管有限公司",
@@ -922,7 +1020,7 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "英文",
   "lang_detail": "eng=20% cjk=54%",
   "en_path": "https://www.tytsteelpipes.com/",
@@ -931,7 +1029,13 @@
    "hreflang:hreflang=\"en\"",
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:46:26"
+  "foreign_langs": [
+   "俄语"
+  ],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 4303,
+  "checked_at": "2026-10-14T19:24:26"
  },
  {
   "name": "上海著诚管件制造有限公司",
@@ -942,7 +1046,8 @@
   "content_len": 3239,
   "product_hits": [
    "FBE",
-   "X60"
+   "X60",
+   "无缝钢管"
   ],
   "product_strong": [],
   "equip_hits": [],
@@ -960,7 +1065,7 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "中文",
   "lang_detail": "eng=20% cjk=52%",
   "en_path": "",
@@ -972,7 +1077,11 @@
    "blind:/en-not-en",
    "blind:/en/index.html-not-en"
   ],
-  "checked_at": "2026-10-12T12:46:31"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 11630,
+  "checked_at": "2026-10-14T19:25:04"
  },
  {
   "name": "山东通汇钢管有限公司",
@@ -986,7 +1095,8 @@
    "X42",
    "X52",
    "无缝钢管",
-   "管线管"
+   "管线管",
+   "管线钢管"
   ],
   "product_strong": [],
   "equip_hits": [],
@@ -1004,12 +1114,18 @@
   "language": "中文",
   "lang_detail": "eng=10% cjk=51%",
   "en_path": "",
-  "en_status": "纯中文官网",
+  "en_status": "多语官网(法语)",
   "en_verified_by": [
    "blind:/en/-not-en",
    "blind:/en/index.html-not-en"
   ],
-  "checked_at": "2026-10-12T12:46:44"
+  "foreign_langs": [
+   "法语"
+  ],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 2448,
+  "checked_at": "2026-10-14T19:26:32"
  },
  {
   "name": "河北华洋钢管有限公司",
@@ -1021,7 +1137,8 @@
   "product_hits": [
    "API 5L",
    "FBE",
-   "无缝钢管"
+   "无缝钢管",
+   "管线管"
   ],
   "product_strong": [],
   "equip_hits": [],
@@ -1037,7 +1154,7 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "英文",
   "lang_detail": "eng=7% cjk=51%",
   "en_path": "https://www.hbhuayang.com/",
@@ -1045,7 +1162,13 @@
   "en_verified_by": [
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:46:45"
+  "foreign_langs": [],
+  "js_lang_switch": [
+   "english(前端字典)"
+  ],
+  "scope_judge": "有产能",
+  "subpage_len": 6077,
+  "checked_at": "2026-10-14T19:26:50"
  },
  {
   "name": "成都德波钢铁有限公司",
@@ -1053,13 +1176,14 @@
   "final_url": "https://www.derbosteelpipe.com/",
   "fetch_status": 200,
   "fetch_note": "",
-  "content_len": 4873,
+  "content_len": 4866,
   "product_hits": [
    "3LPE",
    "API 5L",
    "FBE",
    "OCTG casing",
    "SMLS",
+   "X60",
    "line pipe",
    "seamless steel pipe"
   ],
@@ -1071,7 +1195,6 @@
    "supplier of"
   ],
   "negative_hits": [
-   "ERW pipe",
    "elbow",
    "fitting",
    "flange",
@@ -1089,7 +1212,11 @@
   "en_verified_by": [
    "hreflang:lang=\"en\""
   ],
-  "checked_at": "2026-10-12T12:46:47"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "贸易倾向",
+  "subpage_len": 15470,
+  "checked_at": "2026-10-14T19:27:26"
  },
  {
   "name": "沧州宏鼎管业有限责任公司",
@@ -1101,6 +1228,10 @@
   "product_hits": [
    "API 5L",
    "FBE",
+   "PSL2",
+   "X42",
+   "X52",
+   "X60",
    "line pipe"
   ],
   "product_strong": [
@@ -1120,7 +1251,7 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "英文",
   "lang_detail": "eng=78% cjk=0%",
   "en_path": "https://www.hd-steelpipe.com/",
@@ -1128,7 +1259,15 @@
   "en_verified_by": [
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:47:07"
+  "foreign_langs": [
+   "西班牙语",
+   "俄语",
+   "阿拉伯语"
+  ],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 21208,
+  "checked_at": "2026-10-14T19:28:24"
  },
  {
   "name": "杭州重型钢管有限公司（浙江杭重科技有限公司）",
@@ -1151,15 +1290,19 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "英文",
   "lang_detail": "eng=6% cjk=69%",
-  "en_path": "http://www.sunfu.com/index/index/index?lang=en",
+  "en_path": "http://sunfu.com/index/index/index?lang=en",
   "en_status": "已验证英文版",
   "en_verified_by": [
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:47:11"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 16991,
+  "checked_at": "2026-10-14T19:29:06"
  },
  {
   "name": "江苏海泰国际工贸有限公司",
@@ -1182,7 +1325,11 @@
   "en_path": "",
   "en_status": "官网无法访问",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:47:20"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:31:27"
  },
  {
   "name": "天津市惠利丰防腐保温钢管集团有限公司",
@@ -1190,7 +1337,7 @@
   "final_url": "http://www.tjshuilifeng.com/",
   "fetch_status": 200,
   "fetch_note": "",
-  "content_len": 4998,
+  "content_len": 5109,
   "product_hits": [
    "FBE",
    "三层PE防腐"
@@ -1202,16 +1349,22 @@
   "negative_hits": [],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "英文",
-  "lang_detail": "eng=3% cjk=73%",
+  "lang_detail": "eng=6% cjk=71%",
   "en_path": "http://www.tjshuilifeng.com/en/",
   "en_status": "已验证英文版",
   "en_verified_by": [
    "hreflang:hreflang=\"en\"",
    "blind:/en/"
   ],
-  "checked_at": "2026-10-12T12:47:28"
+  "foreign_langs": [
+   "法语"
+  ],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 9222,
+  "checked_at": "2026-10-14T19:31:28"
  },
  {
   "name": "天津富祥钢管制造有限公司",
@@ -1236,17 +1389,19 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "中文",
   "lang_detail": "eng=80% cjk=0%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [
-   "blind:/en-not-en",
-   "blind:/en/index.html-not-en",
    "blind:/en/products-not-en"
   ],
-  "checked_at": "2026-10-12T12:47:29"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:32:58"
  },
  {
   "name": "邯郸正大制管有限公司",
@@ -1256,6 +1411,7 @@
   "fetch_note": "",
   "content_len": 3800,
   "product_hits": [
+   "API 5L",
    "seamless steel pipe"
   ],
   "product_strong": [
@@ -1270,7 +1426,7 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "英文",
   "lang_detail": "eng=75% cjk=0%",
   "en_path": "https://www.zhengdapipe.com/",
@@ -1279,7 +1435,11 @@
    "hreflang:hreflang=\"en\"",
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:48:32"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 7662,
+  "checked_at": "2026-10-14T19:36:36"
  },
  {
   "name": "山西迈达斯工业有限公司",
@@ -1301,7 +1461,7 @@
   ],
   "has_product": "无",
   "has_equipment": "无",
-  "is_manufacturer": "否",
+  "is_manufacturer": "疑似",
   "language": "英文",
   "lang_detail": "eng=80% cjk=0%",
   "en_path": "https://www.midassteel.com/",
@@ -1310,40 +1470,45 @@
    "hreflang:hreflang=\"en\"",
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:48:35"
+  "foreign_langs": [
+   "法语",
+   "德语",
+   "西班牙语",
+   "俄语",
+   "阿拉伯语",
+   "葡萄牙语"
+  ],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 8372,
+  "checked_at": "2026-10-14T19:38:10"
  },
  {
   "name": "湖南恒安伟业金属制品有限公司",
   "website": "https://hawysteel.com/",
-  "final_url": "https://www.hawysteel.com/",
-  "fetch_status": 200,
-  "fetch_note": "",
-  "content_len": 7593,
-  "product_hits": [
-   "FBE",
-   "line pipe",
-   "seamless steel pipe"
-  ],
+  "final_url": "https://hawysteel.com/",
+  "fetch_status": -1,
+  "fetch_note": "官网无法访问（保留地址待人工核实）",
+  "content_len": 0,
+  "product_hits": [],
   "product_strong": [],
   "equip_hits": [],
   "equip_strong": [],
   "trade_hits": [],
-  "negative_hits": [
-   "SSAW",
-   "welded pipe"
-  ],
-  "has_product": "弱",
+  "negative_hits": [],
+  "has_product": "无",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
-  "language": "英文",
-  "lang_detail": "eng=81% cjk=0%",
-  "en_path": "https://www.hawysteel.com",
-  "en_status": "已验证英文版",
-  "en_verified_by": [
-   "hreflang:hreflang=\"en\"",
-   "EN-link"
-  ],
-  "checked_at": "2026-10-12T12:48:39"
+  "is_manufacturer": "待核实",
+  "language": "未知",
+  "lang_detail": "",
+  "en_path": "",
+  "en_status": "官网无法访问",
+  "en_verified_by": [],
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:38:16"
  },
  {
   "name": "上海南吉利工业有限公司",
@@ -1373,12 +1538,70 @@
    "hreflang:lang=\"en\"",
    "blind:/en/"
   ],
-  "checked_at": "2026-10-12T12:48:45"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 7813,
+  "checked_at": "2026-10-14T19:38:18"
  },
  {
   "name": "河北银河钢管管件有限公司",
   "website": "https://cangluopipe.com/",
   "final_url": "https://cangluopipe.com/",
+  "fetch_status": 200,
+  "fetch_note": "",
+  "content_len": 3594,
+  "product_hits": [
+   "3LPE",
+   "API 5L",
+   "API 5L PSL2",
+   "FBE",
+   "PSL2",
+   "X42",
+   "X52",
+   "X60",
+   "epoxy coated pipe",
+   "seamless steel pipe"
+  ],
+  "product_strong": [
+   "API 5L",
+   "API 5L PSL2",
+   "PSL2"
+  ],
+  "equip_hits": [],
+  "equip_strong": [],
+  "trade_hits": [],
+  "negative_hits": [
+   "spiral welded",
+   "welded pipe"
+  ],
+  "has_product": "弱",
+  "has_equipment": "无",
+  "is_manufacturer": "是",
+  "language": "英文",
+  "lang_detail": "eng=81% cjk=0%",
+  "en_path": "https://cangluopipe.com/product/en-10217-spiral-welded-pipe-manufacturer/",
+  "en_status": "已验证英文版",
+  "en_verified_by": [
+   "hreflang:hreflang=\"en\"",
+   "blind:/en/"
+  ],
+  "foreign_langs": [
+   "法语",
+   "西班牙语",
+   "俄语",
+   "阿拉伯语",
+   "葡萄牙语"
+  ],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 52650,
+  "checked_at": "2026-10-14T19:39:48"
+ },
+ {
+  "name": "西安林慧进出口有限公司",
+  "website": "https://lksteelpipe.com/",
+  "final_url": "https://lksteelpipe.com/",
   "fetch_status": -1,
   "fetch_note": "官网无法访问（保留地址待人工核实）",
   "content_len": 0,
@@ -1396,30 +1619,11 @@
   "en_path": "",
   "en_status": "官网无法访问",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:48:50"
- },
- {
-  "name": "西安林慧进出口有限公司",
-  "website": "https://lksteelpipe.com/",
-  "final_url": "https://www.lksteelpipe.com/",
-  "fetch_status": 200,
-  "fetch_note": "",
-  "content_len": 2347,
-  "product_hits": [],
-  "product_strong": [],
-  "equip_hits": [],
-  "equip_strong": [],
-  "trade_hits": [],
-  "negative_hits": [],
-  "has_product": "无",
-  "has_equipment": "无",
-  "is_manufacturer": "否",
-  "language": "中文",
-  "lang_detail": "eng=38% cjk=0%",
-  "en_path": "",
-  "en_status": "纯中文官网",
-  "en_verified_by": [],
-  "checked_at": "2026-10-12T12:48:59"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:40:43"
  },
  {
   "name": "天津乐金钢铁有限公司",
@@ -1458,7 +1662,18 @@
    "hreflang:hreflang=\"en\"",
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:49:26"
+  "foreign_langs": [
+   "法语",
+   "德语",
+   "西班牙语",
+   "俄语",
+   "阿拉伯语",
+   "葡萄牙语"
+  ],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 7978,
+  "checked_at": "2026-10-14T19:40:59"
  },
  {
   "name": "天津东方钢铁集团有限公司",
@@ -1495,7 +1710,16 @@
    "hreflang:hreflang=\"en\"",
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:49:29"
+  "foreign_langs": [
+   "法语",
+   "西班牙语",
+   "阿拉伯语",
+   "葡萄牙语"
+  ],
+  "js_lang_switch": [],
+  "scope_judge": "贸易倾向",
+  "subpage_len": 24146,
+  "checked_at": "2026-10-14T19:41:03"
  },
  {
   "name": "海南元钢钢管供应链有限公司",
@@ -1503,9 +1727,11 @@
   "final_url": "https://www.yuansteelpipes.com/",
   "fetch_status": 200,
   "fetch_note": "",
-  "content_len": 7399,
+  "content_len": 7381,
   "product_hits": [
    "API 5L",
+   "API 5L PSL2",
+   "FBE",
    "PSL2",
    "X42",
    "X52",
@@ -1534,12 +1760,20 @@
   "language": "多语",
   "lang_detail": "eng=80% cjk=0%",
   "en_path": "",
-  "en_status": "多语官网",
+  "en_status": "多语官网(法语/西班牙语/葡萄牙语)",
   "en_verified_by": [
    "hreflang:hreflang=\"en\"",
    "other-lang:fr,es,pt"
   ],
-  "checked_at": "2026-10-12T12:49:55"
+  "foreign_langs": [
+   "法语",
+   "西班牙语",
+   "葡萄牙语"
+  ],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 17411,
+  "checked_at": "2026-10-14T19:41:27"
  },
  {
   "name": "天津宝来钢管集团有限公司",
@@ -1562,7 +1796,11 @@
   "en_path": "",
   "en_status": "官网无法访问",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:50:36"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:43:48"
  },
  {
   "name": "天津万磊钢管有限公司",
@@ -1572,7 +1810,11 @@
   "fetch_note": "",
   "content_len": 3475,
   "product_hits": [
+   "3LPE",
    "API 5L",
+   "FBE",
+   "X42",
+   "X52",
    "seamless steel pipe"
   ],
   "product_strong": [
@@ -1600,7 +1842,18 @@
    "hreflang:hreflang=\"en\"",
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:50:40"
+  "foreign_langs": [
+   "法语",
+   "德语",
+   "西班牙语",
+   "俄语",
+   "阿拉伯语",
+   "葡萄牙语"
+  ],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 7416,
+  "checked_at": "2026-10-14T19:43:53"
  },
  {
   "name": "普曼钢铁制造有限公司",
@@ -1637,30 +1890,75 @@
    "hreflang:lang=\"en\"",
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:50:45"
+  "foreign_langs": [
+   "西班牙语"
+  ],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 14259,
+  "checked_at": "2026-10-14T19:44:00"
  },
  {
   "name": "联合钢管工业有限公司",
   "website": "https://union-steels.com/",
-  "final_url": "https://union-steels.com/",
-  "fetch_status": -1,
-  "fetch_note": "官网无法访问（保留地址待人工核实）",
-  "content_len": 0,
-  "product_hits": [],
-  "product_strong": [],
+  "final_url": "https://www.union-steels.com/",
+  "fetch_status": 200,
+  "fetch_note": "",
+  "content_len": 16495,
+  "product_hits": [
+   "3LPE",
+   "API 5L",
+   "FBE",
+   "PSL2",
+   "SMLS",
+   "X42",
+   "X52",
+   "X60",
+   "epoxy coated pipe",
+   "line pipe",
+   "seamless steel pipe"
+  ],
+  "product_strong": [
+   "API 5L",
+   "SMLS",
+   "seamless steel pipe"
+  ],
   "equip_hits": [],
   "equip_strong": [],
-  "trade_hits": [],
-  "negative_hits": [],
-  "has_product": "无",
+  "trade_hits": [
+   "supplier of"
+  ],
+  "negative_hits": [
+   "ERW pipe",
+   "LSAW",
+   "SSAW",
+   "boiler tube",
+   "elbow",
+   "fitting",
+   "flange",
+   "spiral welded",
+   "structural tube",
+   "valve",
+   "welded pipe"
+  ],
+  "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "待核实",
-  "language": "未知",
-  "lang_detail": "",
-  "en_path": "",
-  "en_status": "官网无法访问",
-  "en_verified_by": [],
-  "checked_at": "2026-10-12T12:51:09"
+  "is_manufacturer": "否",
+  "language": "英文",
+  "lang_detail": "eng=75% cjk=0%",
+  "en_path": "https://www.union-steels.com/index.html",
+  "en_status": "已验证英文版",
+  "en_verified_by": [
+   "hreflang:lang=\"en\"",
+   "EN-link"
+  ],
+  "foreign_langs": [
+   "西班牙语"
+  ],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 33024,
+  "checked_at": "2026-10-14T19:44:14"
  },
  {
   "name": "扬子钢铁集团有限公司",
@@ -1696,7 +1994,11 @@
    "hreflang:lang=\"en\"",
    "blind:/en/"
   ],
-  "checked_at": "2026-10-12T12:51:22"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 9214,
+  "checked_at": "2026-10-14T19:44:34"
  },
  {
   "name": "中原管道制造有限公司",
@@ -1732,7 +2034,11 @@
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:51:27"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 3852,
+  "checked_at": "2026-10-14T19:45:08"
  },
  {
   "name": "河北龙马钢管制造股份有限公司",
@@ -1755,13 +2061,17 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "中文",
   "lang_detail": "eng=27% cjk=1%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:51:29"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:45:45"
  },
  {
   "name": "河北瑞泰管道制造有限公司",
@@ -1797,7 +2107,11 @@
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:51:31"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 3290,
+  "checked_at": "2026-10-14T19:46:10"
  },
  {
   "name": "浙江明贺钢管有限公司",
@@ -1810,13 +2124,19 @@
    "无缝钢管"
   ],
   "product_strong": [],
-  "equip_hits": [],
-  "equip_strong": [],
+  "equip_hits": [
+   "穿孔机",
+   "轧管机"
+  ],
+  "equip_strong": [
+   "穿孔机",
+   "轧管机"
+  ],
   "trade_hits": [],
   "negative_hits": [],
   "has_product": "弱",
-  "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "has_equipment": "强",
+  "is_manufacturer": "是",
   "language": "英文",
   "lang_detail": "eng=4% cjk=66%",
   "en_path": "http://www.zjmhgg.com/en/",
@@ -1824,7 +2144,11 @@
   "en_verified_by": [
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:51:37"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 3849,
+  "checked_at": "2026-10-14T19:46:45"
  },
  {
   "name": "沧州伟浩管道科技有限公司",
@@ -1847,7 +2171,11 @@
   "en_path": "",
   "en_status": "官网无法访问",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:51:38"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:46:59"
  },
  {
   "name": "河北宏科华管道有限公司",
@@ -1857,7 +2185,8 @@
   "fetch_note": "",
   "content_len": 2010,
   "product_hits": [
-   "无缝钢管"
+   "无缝钢管",
+   "环氧煤沥青"
   ],
   "product_strong": [],
   "equip_hits": [
@@ -1880,7 +2209,11 @@
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:51:39"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 2986,
+  "checked_at": "2026-10-14T19:47:01"
  },
  {
   "name": "河北七海管道装备制造有限公司",
@@ -1903,37 +2236,38 @@
   "en_path": "",
   "en_status": "官网无法访问",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:51:41"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:47:53"
  },
  {
   "name": "河北华易管道制造有限公司",
   "website": "http://www.hybwgd888.com/",
   "final_url": "http://www.hybwgd888.com/",
-  "fetch_status": 200,
-  "fetch_note": "",
-  "content_len": 902,
-  "product_hits": [
-   "FBE",
-   "无缝钢管"
-  ],
+  "fetch_status": -1,
+  "fetch_note": "官网无法访问（保留地址待人工核实）",
+  "content_len": 0,
+  "product_hits": [],
   "product_strong": [],
   "equip_hits": [],
   "equip_strong": [],
   "trade_hits": [],
-  "negative_hits": [
-   "弯头",
-   "法兰",
-   "管件"
-  ],
-  "has_product": "弱",
+  "negative_hits": [],
+  "has_product": "无",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
-  "language": "中文",
-  "lang_detail": "eng=5% cjk=66%",
+  "is_manufacturer": "待核实",
+  "language": "未知",
+  "lang_detail": "",
   "en_path": "",
-  "en_status": "纯中文官网",
+  "en_status": "官网无法访问",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:51:41"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:47:54"
  },
  {
   "name": "河北同拓管道有限公司",
@@ -1950,18 +2284,25 @@
   "negative_hits": [],
   "has_product": "无",
   "has_equipment": "无",
-  "is_manufacturer": "否",
+  "is_manufacturer": "疑似",
   "language": "中文",
   "lang_detail": "eng=7% cjk=2%",
   "en_path": "",
-  "en_status": "纯中文官网",
+  "en_status": "多语官网(法语/阿拉伯语)",
   "en_verified_by": [
    "blind:/en/-not-en",
    "blind:/en-not-en",
    "blind:/en/index.html-not-en",
    "blind:/en/products-not-en"
   ],
-  "checked_at": "2026-10-12T12:51:52"
+  "foreign_langs": [
+   "法语",
+   "阿拉伯语"
+  ],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 2860,
+  "checked_at": "2026-10-14T19:47:55"
  },
  {
   "name": "河北龙润管道集团有限公司",
@@ -1985,13 +2326,17 @@
   ],
   "has_product": "无",
   "has_equipment": "无",
-  "is_manufacturer": "否",
+  "is_manufacturer": "疑似",
   "language": "中文",
   "lang_detail": "eng=4% cjk=58%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:51:56"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:48:07"
  },
  {
   "name": "河北海浩集团赛腾管道有限公司",
@@ -2011,13 +2356,17 @@
   ],
   "has_product": "无",
   "has_equipment": "无",
-  "is_manufacturer": "否",
+  "is_manufacturer": "疑似",
   "language": "中文",
   "lang_detail": "eng=8% cjk=61%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:51:57"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 4345,
+  "checked_at": "2026-10-14T19:50:44"
  },
  {
   "name": "天津市富海通管道科技有限公司",
@@ -2040,7 +2389,11 @@
   "en_path": "",
   "en_status": "官网无法访问",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:52:00"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:51:37"
  },
  {
   "name": "河北海乾威钢管有限公司",
@@ -2048,30 +2401,32 @@
   "final_url": "https://www.hspc.cc/",
   "fetch_status": 200,
   "fetch_note": "",
-  "content_len": 150688,
+  "content_len": 152836,
   "product_hits": [
    "3LPE",
    "API 5L",
+   "API 5L PSL2",
    "FBE",
    "PSL2",
    "X42",
    "X52",
+   "X60",
+   "无缝钢管",
+   "熔结环氧粉末",
    "石油套管",
    "管线管"
   ],
   "product_strong": [],
   "equip_hits": [
-   "防腐生产线"
+   "防腐生产线",
+   "静电喷涂"
   ],
   "equip_strong": [
    "防腐生产线"
   ],
-  "trade_hits": [
-   "进出口"
-  ],
+  "trade_hits": [],
   "negative_hits": [
    "LSAW",
-   "弯头",
    "焊管",
    "直缝焊管",
    "结构管"
@@ -2080,11 +2435,17 @@
   "has_equipment": "强",
   "is_manufacturer": "是",
   "language": "中文",
-  "lang_detail": "eng=34% cjk=23%",
+  "lang_detail": "eng=31% cjk=26%",
   "en_path": "",
-  "en_status": "纯中文官网",
+  "en_status": "多语官网(法语)",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:52:00"
+  "foreign_langs": [
+   "法语"
+  ],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 607700,
+  "checked_at": "2026-10-14T19:51:38"
  },
  {
   "name": "沧州市鑫宜达管道有限公司",
@@ -2100,16 +2461,20 @@
   "product_strong": [
    "无缝钢管"
   ],
-  "equip_hits": [],
-  "equip_strong": [],
+  "equip_hits": [
+   "防腐生产线"
+  ],
+  "equip_strong": [
+   "防腐生产线"
+  ],
   "trade_hits": [],
   "negative_hits": [
    "法兰",
    "管件"
   ],
   "has_product": "弱",
-  "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "has_equipment": "强",
+  "is_manufacturer": "是",
   "language": "英文",
   "lang_detail": "eng=11% cjk=58%",
   "en_path": "https://www.sined.cn/eng/",
@@ -2117,7 +2482,11 @@
   "en_verified_by": [
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:52:05"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 1938,
+  "checked_at": "2026-10-14T19:53:13"
  },
  {
   "name": "河北宝隆钢管制造有限公司",
@@ -2140,7 +2509,11 @@
   "en_path": "",
   "en_status": "官网无法访问",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:52:06"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T19:54:09"
  },
  {
   "name": "盐山瑞通钢管有限公司",
@@ -2175,13 +2548,17 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "中文",
   "lang_detail": "eng=7% cjk=74%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:52:07"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 6968,
+  "checked_at": "2026-10-14T19:54:11"
  },
  {
   "name": "河北恒泰管道科技有限公司",
@@ -2207,13 +2584,17 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "中文",
   "lang_detail": "eng=9% cjk=58%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:52:08"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 1563,
+  "checked_at": "2026-10-14T19:54:31"
  },
  {
   "name": "沧州隆泰迪管道科技有限公司",
@@ -2236,15 +2617,21 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "中文",
   "lang_detail": "eng=80% cjk=0%",
   "en_path": "",
-  "en_status": "纯中文官网",
+  "en_status": "疑似多语(JS切换,需浏览器核实)",
   "en_verified_by": [
    "hreflang:lang=\"en\""
   ],
-  "checked_at": "2026-10-12T12:52:13"
+  "foreign_langs": [],
+  "js_lang_switch": [
+   "english(前端字典)"
+  ],
+  "scope_judge": "有产能",
+  "subpage_len": 13110,
+  "checked_at": "2026-10-14T19:55:01"
  },
  {
   "name": "江苏诚德钢管股份有限公司",
@@ -2261,7 +2648,7 @@
   "negative_hits": [],
   "has_product": "无",
   "has_equipment": "无",
-  "is_manufacturer": "否",
+  "is_manufacturer": "疑似",
   "language": "英文",
   "lang_detail": "eng=11% cjk=1%",
   "en_path": "http://www.cdgroup.cn/en/",
@@ -2269,7 +2656,11 @@
   "en_verified_by": [
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:52:17"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 1284,
+  "checked_at": "2026-10-14T19:57:51"
  },
  {
   "name": "江苏通宇钢管集团有限公司",
@@ -2290,13 +2681,17 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "中文",
   "lang_detail": "eng=10% cjk=69%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:52:17"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 4135,
+  "checked_at": "2026-10-14T19:58:08"
  },
  {
   "name": "天津市联众管道科技有限公司",
@@ -2319,7 +2714,11 @@
   "en_path": "",
   "en_status": "官网无法访问",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:52:20"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T20:00:41"
  },
  {
   "name": "无锡贝来管业有限公司",
@@ -2334,21 +2733,31 @@
    "管线管"
   ],
   "product_strong": [],
-  "equip_hits": [],
-  "equip_strong": [],
+  "equip_hits": [
+   "穿孔机",
+   "轧管机"
+  ],
+  "equip_strong": [
+   "穿孔机",
+   "轧管机"
+  ],
   "trade_hits": [],
   "negative_hits": [
    "锅炉管"
   ],
   "has_product": "弱",
-  "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "has_equipment": "强",
+  "is_manufacturer": "是",
   "language": "中文",
   "lang_detail": "eng=8% cjk=60%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:52:22"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "贸易倾向",
+  "subpage_len": 4879,
+  "checked_at": "2026-10-14T20:00:42"
  },
  {
   "name": "河北志航管道装备制造股份有限公司",
@@ -2359,7 +2768,8 @@
   "content_len": 1469,
   "product_hits": [
    "X52",
-   "X60"
+   "X60",
+   "石油套管"
   ],
   "product_strong": [],
   "equip_hits": [],
@@ -2368,13 +2778,17 @@
   "negative_hits": [],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "中文",
   "lang_detail": "eng=3% cjk=77%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:52:24"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 3259,
+  "checked_at": "2026-10-14T20:01:37"
  },
  {
   "name": "山东中正钢管制造有限公司",
@@ -2384,7 +2798,11 @@
   "fetch_note": "",
   "content_len": 2275,
   "product_hits": [
-   "无缝钢管"
+   "API 5L",
+   "X42",
+   "无缝钢管",
+   "石油套管",
+   "管线管"
   ],
   "product_strong": [
    "无缝钢管"
@@ -2405,11 +2823,17 @@
   "language": "中文",
   "lang_detail": "eng=5% cjk=68%",
   "en_path": "",
-  "en_status": "纯中文官网",
+  "en_status": "疑似多语(JS切换,需浏览器核实)",
   "en_verified_by": [
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:52:26"
+  "foreign_langs": [],
+  "js_lang_switch": [
+   "english"
+  ],
+  "scope_judge": "有产能",
+  "subpage_len": 4837,
+  "checked_at": "2026-10-14T20:01:56"
  },
  {
   "name": "沧州昶晟管业有限公司",
@@ -2435,18 +2859,22 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "否",
   "language": "中文",
   "lang_detail": "eng=3% cjk=77%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:52:29"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "贸易倾向",
+  "subpage_len": 5159,
+  "checked_at": "2026-10-14T20:02:34"
  },
  {
   "name": "沧州英铎管道有限公司",
   "website": "https://yingduogd.com/",
-  "final_url": "https://yingduogd.com/",
+  "final_url": "https://www.yingduogd.com/",
   "fetch_status": 200,
   "fetch_note": "",
   "content_len": 2715,
@@ -2469,13 +2897,17 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "中文",
   "lang_detail": "eng=4% cjk=75%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:52:30"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 10356,
+  "checked_at": "2026-10-14T20:03:22"
  },
  {
   "name": "河北华盾管道制造有限公司",
@@ -2494,18 +2926,25 @@
   ],
   "has_product": "无",
   "has_equipment": "无",
-  "is_manufacturer": "否",
+  "is_manufacturer": "疑似",
   "language": "中文",
   "lang_detail": "eng=7% cjk=1%",
   "en_path": "",
-  "en_status": "纯中文官网",
+  "en_status": "多语官网(法语/阿拉伯语)",
   "en_verified_by": [
    "blind:/en/-not-en",
    "blind:/en-not-en",
    "blind:/en/index.html-not-en",
    "blind:/en/products-not-en"
   ],
-  "checked_at": "2026-10-12T12:52:44"
+  "foreign_langs": [
+   "法语",
+   "阿拉伯语"
+  ],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 3535,
+  "checked_at": "2026-10-14T20:06:59"
  },
  {
   "name": "河北兴松实业有限公司",
@@ -2539,7 +2978,11 @@
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:52:47"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "贸易倾向",
+  "subpage_len": 3634,
+  "checked_at": "2026-10-14T20:07:11"
  },
  {
   "name": "河北科天管业有限公司",
@@ -2564,7 +3007,11 @@
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:52:50"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "贸易倾向",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T20:07:44"
  },
  {
   "name": "沧州申越管道有限公司",
@@ -2581,13 +3028,17 @@
   "negative_hits": [],
   "has_product": "无",
   "has_equipment": "无",
-  "is_manufacturer": "否",
+  "is_manufacturer": "疑似",
   "language": "中文",
   "lang_detail": "eng=18% cjk=1%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:52:54"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 2726,
+  "checked_at": "2026-10-14T20:08:01"
  },
  {
   "name": "河北乾兴管道装备制造有限公司",
@@ -2610,13 +3061,17 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "中文",
   "lang_detail": "eng=8% cjk=67%",
   "en_path": "",
   "en_status": "纯中文官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:53:00"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 3521,
+  "checked_at": "2026-10-14T20:08:25"
  },
  {
   "name": "河北冠奇管道设备制造有限公司",
@@ -2640,7 +3095,7 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "英文",
   "lang_detail": "eng=15% cjk=63%",
   "en_path": "https://www.hbgqpipe.com/?lg=en",
@@ -2649,7 +3104,11 @@
    "hreflang:lang=\"en\"",
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:53:03"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T20:08:58"
  },
  {
   "name": "沧州华盾管道科技有限公司",
@@ -2659,6 +3118,7 @@
   "fetch_note": "",
   "content_len": 10982,
   "product_hits": [
+   "API 5L",
    "line pipe",
    "seamless steel pipe"
   ],
@@ -2674,7 +3134,7 @@
   ],
   "has_product": "弱",
   "has_equipment": "无",
-  "is_manufacturer": "疑似",
+  "is_manufacturer": "是",
   "language": "英文",
   "lang_detail": "eng=81% cjk=1%",
   "en_path": "https://www.hbhuangchi.com/",
@@ -2683,7 +3143,13 @@
    "hreflang:lang=\"en\"",
    "EN-link"
   ],
-  "checked_at": "2026-10-12T12:53:06"
+  "foreign_langs": [
+   "法语"
+  ],
+  "js_lang_switch": [],
+  "scope_judge": "有产能",
+  "subpage_len": 7787,
+  "checked_at": "2026-10-14T20:10:19"
  },
  {
   "name": "浙江中鼎钢铁有限公司",
@@ -2706,7 +3172,11 @@
   "en_path": "",
   "en_status": "无官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:53:08"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T20:11:51"
  },
  {
   "name": "天津博金钢铁进出口有限公司",
@@ -2729,7 +3199,11 @@
   "en_path": "",
   "en_status": "无官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:53:09"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T20:11:51"
  },
  {
   "name": "河北浦鑫管道集团有限公司",
@@ -2752,7 +3226,11 @@
   "en_path": "",
   "en_status": "无官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:53:09"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T20:11:51"
  },
  {
   "name": "河北盛泰管道科技有限公司",
@@ -2775,6 +3253,10 @@
   "en_path": "",
   "en_status": "无官网",
   "en_verified_by": [],
-  "checked_at": "2026-10-12T12:53:09"
+  "foreign_langs": [],
+  "js_lang_switch": [],
+  "scope_judge": "无信号",
+  "subpage_len": 0,
+  "checked_at": "2026-10-14T20:11:51"
  }
 ]

@@ -1,8 +1,19 @@
 # 端到端操作手册
 
-## 阶段 1：4 渠道并行爬取候选池
+三阶段流水线：**发现（本模块）→ 官网验证（website-content-verification）→ 工商核验（business-registration-verification）**。
+本模块只做「发现 + 清洗」，核验归另外两个模块。
 
-用 delegate_task 并行 spawn 4 个 subagent（每个产 ≥30 家，JSON 统一格式），渠道见 `CHANNELS.md`。
+## 阶段 1：多渠道并行爬取候选池
+
+用 delegate_task 并行 spawn subagent，渠道见 `CHANNELS.md`。核心渠道：
+
+| 渠道 | 文件名 | 方法 |
+|---|---|---|
+| 搜索引擎 | `search_engine.json` | 中文品名+官网/厂家/有限公司；英文品名+manufacturer |
+| B2B外贸 | `b2b_mic.json` | 中国制造网/环球资源英文关键词，优先有出口业绩 |
+| 展会 | `exhibition.json` | Bing 搜「XX展 展商名录」提取企业名，回引擎找官网 |
+| 资质认证 | `certification.json` | API 5L/ISO/压力管道许可/中标榜单 |
+| 微信生态 | `wechat.json` | 搜狗微信 `weixin.sogou.com/weixin?type=2`，行业公众号「中标汇总榜/专精特新」一次成批提取 |
 
 每个 subagent 写 JSON 到 `data/<品类>/<channel>.json`：
 
@@ -26,6 +37,25 @@
 
 必守规则见 `CHANNELS.md`「通用采集要求」。
 
+### ⚠️ 采集可靠性（必做，踩坑沉淀）
+
+subagent 可能**整机失败却自报完成**（症状：完成报告写「无前序数据/目录不可访问」，而另几个同目录 subagent 却写盘成功）。
+
+- **以落盘文件为准，不信自报的 candidates_count**：每渠道回来后先 `ls data/<品类>/` + 读 JSON 核对实际条数。
+- **失败渠道立即重派**，goal 里明确写「立即开始工作，不要等待任何前序数据——这是独立任务」。
+- **中途调配额用 steer 不必停掉重派**：`delegate_task(action='steer', subagent_id, message)` 把新目标注入运行中的 subagent（如下一工具结果处生效），如「每渠道30家」。
+- **渠道陆续到齐时每批重跑全链**：aggregate 域名去重跨渠道生效，verify/tyc 全量重跑会干净覆盖旧结果（按企业名 join 不受影响）。新渠道到达后顺序：aggregate(全量)→verify(全量)→tyc(全量)→finalize。
+
+### 发现期采集要求（每个 subagent 必含指令）
+
+- **英文公司名必须先解析中文全称再入池**（工商核验依赖中文名），英文名放 notes。
+- **website 必须是独立官网**：MIC/阿里子域不算；找不到留空并在 notes 标「待核实」。
+- 排除境外企业（关键词 Indonesia/印尼/PT./境外）。
+- **confidence 如实自标**：设备厂/贸易商/疑似非目标品类标 low 并在 notes 写明理由；不要为凑数量把无关企业标 high。
+- 英文站/产品形态**不在发现期验证**，分别归官网验证模块和清洗阶段。
+
+搜索词取 `sources/keywords.json` 的 cn/en 组合。
+
 ## 阶段 2：清洗去重
 
 ```bash
@@ -33,81 +63,30 @@ BIG_BLACKLIST="凤铝|坚美|忠旺" python scripts/aggregate.py "data/<品类>"
 ```
 
 - 按官网域名去重（最可靠），同域名保留信息最全的
-- 排除：无官网+产品笼统的贸易商、黑名单大型企业、境外企业
-- 产品形态过滤（用户指定形态时）：按 products 字段过滤
-- 产物：`_clean.json` + 剔除 MIC 店铺页/名称待核实项后的待验证名单
+- **域名去重后必须再做企业名归一化二级去重**：同一企业常有多个域名/别名，域名去重合并不掉，交付表会出现重复占行。aggregate.py 已内置（去括号别名+去公司后缀，同键保留信息最全）
+- 排除：黑名单大型国企/上市公司、无官网+产品笼统的贸易商、境外企业
+- **黑名单还要含「卖设备不卖产品」的设备厂**（如制管机械厂会被 B2B 渠道误采）
+- 产品形态过滤（用户指定特定形态时）：按 products 字段过滤
+- 产物：`_clean.json`
 
-## 阶段 3：爱企查逐个验证（核心技术）
-
-### 前置 0 — CDP 调试端口
-
-browser_exec 通过 `http://127.0.0.1:9222/json/list` 连本地 Chrome。该端口**跨 turn 会断**（症状：`BU_CDP_URL unreachable / WinError 10061`）。恢复：
-
-1. `curl -s http://127.0.0.1:9222/json/version` 和 `netstat -ano | grep 9222` 确认真断了（空返回=断）
-2. 让用户**完全关闭所有 Chrome**（任务管理器确认无 chrome.exe 残留）
-3. 用**默认用户数据目录**启动（保住登录态）：
-   `terminal(command='"C:/Program Files/Google/Chrome/Application/chrome.exe" --remote-debugging-port=9222', background=True)`
-4. `sleep 5` 后 curl 验证 `/json/version` 有返回
-5. 再让用户在**这个** Chrome 里打开 aiqicha.baidu.com 并登录
-
-> **绝不能用独立 `--user-data-dir`**：那样启动的 Chrome 无登录 cookie，打开爱企查要重登，白干。
-
-### 前置 1
-
-用户必须在 Chrome 手动打开 aiqicha.baidu.com 并登录，验证队列准备好后提示用户这一步。
-
-### 验证机制（唯一可行路径）
-
-```python
-import urllib.request, json, time
-tabs = json.load(urllib.request.urlopen("http://127.0.0.1:9222/json/list"))
-aiq = [t for t in tabs if t.get('type')=='page' and 'aiqicha.baidu.com' in t.get('url','')]
-attach = cdp('Target.attachToTarget', targetId=aiq[0]['id'], flatten=True)
-sid = attach['sessionId']
-
-for company in companies:
-    # 每家: 用 location.href 导航（不能用 CDP Page.navigate — 触发反爬0结果）
-    cdp('Runtime.evaluate', expression=f"location.href='/s?q='+encodeURIComponent('{company}')+'&t=0'", session_id=sid)
-    time.sleep(4)
-    body = cdp('Runtime.evaluate', expression="document.body.innerText", session_id=sid).get('result',{}).get('value','')
-    idx = body.find('为你找到')   # 搜不到则 idx<0
-    # 提取: 注册资本 / 开业|注销|存续 / 国有|私营 / 法人 / 成立时间 / 地址 / 电话
-```
-
-提取正则：
-
-- 注册资本：`注册资本[：:]\s*([\d,\.]+)\s*万`
-- 存续：section[:300] 含'开业'→开业 / '注销'→注销 / '存续'→存续
-- 国企：'国有'或'央企' in section[:300] → 国有，否则私营
-- 法人/成立/地址/电话同理
-
-## 阶段 4：英文官网实际验证 + 美化交付
-
-**不要信任 subagent 自报的 has_english_site**（实测大量误标）。父进程汇总时用 curl 独立域名重新验证：
-
-```python
-ctx = ssl.create_default_context(); ctx.check_hostname=False; ctx.verify_mode=ssl.CERT_NONE
-for v in candidates:
-    url = v.get('website','')
-    if 'made-in-china.com' in url:
-        v['en_status'] = 'MIC英文店铺页'          # 降级，不算独立英文官网
-    else:
-        try:
-            html = urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0'}), timeout=8, context=ctx).read(3000).decode('utf-8','ignore').lower()
-            v['en_status'] = '已验证英文版' if ('english' in html or '/en' in html or 'lang="en"' in html) else '纯中文官网'
-        except Exception:
-            v['en_status'] = '官网无法访问'
-    v['has_english_site'] = (v['en_status'] == '已验证英文版')   # 以验证结果覆盖原始标记
-```
-
-en_status 五档：已验证英文版 / MIC英文店铺页 / 纯中文官网 / 官网无法访问 / 未验证。
-排序：已验证英文版（浅绿）→ MIC子域（浅黄）→ 仅中文，组内注册资金降序。
-
-## 交付物
+## 阶段 3：工商核验 → 用 business-registration-verification 模块
 
 ```bash
-python scripts/finalize.py "data/<品类>"
+PYTHONPATH= python tyc_verify.py data/<品类>/<品类>.json
 ```
 
-- `制造商_验证结果.xlsx`（美化：深蓝表头+微软雅黑+冻结+auto_filter+颜色分组）
-- `制造商_报告.md`（🟢🟡⚪ 图例分档，模板见 `templates/report.md`）
+天眼查接口，实测命中率 82-95%，无登录/无浏览器门槛。输出 `<品类>_tyc.json`（含注册资本/存续/性质/成立日期/**businessScope 经营范围**——供官网验证模块交叉判定）。详见该模块 WORKFLOW.md。
+
+> 输入名单须命名为 `<品类>.json`（输出会是 `<品类>_tyc.json`，finalize 靠此命名找）。
+
+## 阶段 4：官网验证 → 用 website-content-verification 模块
+
+```bash
+python verify.py --input _verify_in.json --config sources/<品类>.yaml --out data/<品类> --xlsx
+```
+
+三重实测（产品/设备/语言）+ 多页面深挖 + 经营范围交叉判定 + 多语种检测。详见该模块 WORKFLOW.md。
+
+## 阶段 5：汇总交付
+
+finalize join 三份数据（_clean + verify_result + _tyc）→ `<品类>产品制造商候选名单.xlsx/.md`（官网列超链接，英文官网优先排序）。
