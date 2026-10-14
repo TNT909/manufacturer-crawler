@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VerifyQueueItem",
+  "description": "verify.py 输入：待验证的候选制造商名单（单条）",
+  "type": "object",
+  "required": ["name"],
+  "properties": {
+    "name":     { "type": "string", "description": "公司全称（仅用于输出标注）" },
+    "website":  { "type": "string", "description": "独立官网URL；留空则该条跳过并标 en_status=无官网" },
+    "products": { "type": "string", "description": "渠道采集时的产品形态备注，仅参考不作判定依据" },
+    "source_url": { "type": "string" },
+    "notes":    { "type": "string" }
+  }
+}

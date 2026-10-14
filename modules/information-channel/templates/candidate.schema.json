@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ManufacturerCandidate",
+  "type": "object",
+  "required": ["channel", "candidates"],
+  "properties": {
+    "channel": { "type": "string", "enum": ["search_engine", "b2b_mic", "exhibition", "certification"] },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "products"],
+        "properties": {
+          "name":           { "type": "string", "description": "中文公司全称（含'有限公司'）——爱企查验证依赖中文名" },
+          "website":        { "type": "string", "description": "企业独立官网，禁止MIC子域名；找不到留空并在notes标'待核实'" },
+          "address":        { "type": "string" },
+          "products":       { "type": "string", "description": "写清产品形态（如 铝管 vs 型材）——形态过滤依据" },
+          "source_url":     { "type": "string", "description": "发现该企业的来源页面URL" },
+          "has_english_site": { "type": "boolean", "description": "必须实际打开官网验证English/EN切换后填写，禁止猜测" },
+          "confidence":     { "type": "string", "enum": ["high", "medium", "low"] },
+          "notes":          { "type": "string", "description": "英文公司名、渠道备注、待核实项等" }
+        }
+      }
+    }
+  }
+}

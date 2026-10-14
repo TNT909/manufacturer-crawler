@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VerifyResult",
+  "description": "verify.py 输出：单条判定结果",
+  "type": "object",
+  "required": ["name", "website", "language", "is_manufacturer"],
+  "properties": {
+    "name":           { "type": "string" },
+    "website":        { "type": "string", "description": "实际抓取的入口URL（含重定向后的final_url）" },
+    "final_url":      { "type": "string", "description": "跟随重定向后的最终URL" },
+    "fetch_status":   { "type": "integer", "description": "HTTP 状态码；-1=连接失败/超时" },
+    "fetch_note":     { "type": "string", "description": "SaaS模板/JS渲染/超时 等抓取备注" },
+    "content_len":    { "type": "integer", "description": "正文文本长度（去标签后）" },
+    "product_hits":   { "type": "array",  "items": { "type": "string" }, "description": "命中的产品关键词（去重）" },
+    "product_strong": { "type": "array",  "items": { "type": "string" }, "description": "在title/h1/产品列表块中命中的产品关键词" },
+    "equip_hits":     { "type": "array",  "items": { "type": "string" }, "description": "命中的设备关键词" },
+    "equip_strong":   { "type": "array",  "items": { "type": "string" }, "description": "与型号/台数/吨位共现的设备关键词" },
+    "trade_hits":     { "type": "array",  "items": { "type": "string" }, "description": "命中的贸易/代理特征词" },
+    "negative_hits":  { "type": "array",  "items": { "type": "string" }, "description": "命中的产品形态负向词（如'铝型材'）" },
+    "has_product":    { "type": "string", "enum": ["强", "弱", "无"] },
+    "has_equipment":  { "type": "string", "enum": ["强", "弱", "无"] },
+    "is_manufacturer":{ "type": "string", "enum": ["是", "疑似", "否"] },
+    "language":       { "type": "string", "description": "英文 / 多语 / 中文 / 未知" },
+    "lang_detail":    { "type": "string", "description": "如 'en,fr' 或 'zh(eng=32%)'" },
+    "en_path":        { "type": "string", "description": "实际可访问的英文入口URL（可为空）" },
+    "en_status":      { "type": "string", "enum": ["已验证英文版", "多语官网", "纯中文官网", "官网无法访问", "无官网", "SaaS模板"] },
+    "en_verified_by": { "type": "array",  "items": { "type": "string" }, "description": "命中的语言判定信号" },
+    "checked_at":     { "type": "string", "description": "ISO8601 时间戳" }
+  }
+}
