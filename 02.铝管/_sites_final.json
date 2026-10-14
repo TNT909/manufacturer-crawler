@@ -1,0 +1,120 @@
+{
+ "Alumag Aluminum Tech(Taicang) Co., Ltd.": {
+  "url": "https://en.alumag.com.cn",
+  "final_url": "https://en.alumag.com.cn",
+  "status": 200,
+  "has_english": true,
+  "signals": [
+   "EN-link"
+  ]
+ },
+ "Wuxi Gold Guangyuan Metal Products Factory": {
+  "url": "https://www.guangyuantubes.com",
+  "final_url": "https://www.guangyuantubes.com",
+  "status": 200,
+  "has_english": false,
+  "signals": []
+ },
+ "Sihui Shengjie Metal Products Co., Ltd.": {
+  "url": "https://www.sjalum.com",
+  "final_url": "https://www.sjalum.com",
+  "status": 200,
+  "has_english": true,
+  "signals": [
+   "EN-link",
+   "eng-dominant(zh=0)"
+  ]
+ },
+ "Suzhou Jieyou Fluid Technology Co., Ltd.": {
+  "url": "https://www.upipetech.com",
+  "final_url": "https://www.upipetech.com",
+  "status": 200,
+  "has_english": true,
+  "signals": [
+   "EN-link"
+  ]
+ },
+ "Zeyi Aluminum Co., Ltd.": {
+  "url": "https://zeyialuminum.com",
+  "final_url": "https://www.zeyialuminum.com/",
+  "status": 200,
+  "has_english": true,
+  "signals": [
+   "EN-link",
+   "en-path"
+  ]
+ },
+ "Zhenjiang Runfa Aluminium Co., Ltd.": {
+  "url": "https://runfaal.com",
+  "final_url": "https://www.runfaal.com/",
+  "status": 200,
+  "has_english": true,
+  "signals": [
+   "EN-link",
+   "eng-dominant(zh=11)"
+  ]
+ },
+ "Hunan Hengjia New Materials Technology Co., Ltd.": {
+  "url": "https://en.hengjialum.cn",
+  "final_url": "https://en.hengjialum.cn",
+  "status": 200,
+  "has_english": false,
+  "signals": []
+ },
+ "Zhangjiagang Chewit International Co., Ltd.": {
+  "url": "https://pipecw.com",
+  "final_url": "https://pipecw.com",
+  "status": 200,
+  "has_english": true,
+  "signals": [
+   "EN-link"
+  ]
+ },
+ "Foshan City Nanhai Taoyuan Aluminium Co., Ltd.": {
+  "url": "https://taoyuan-alu.com",
+  "final_url": "https://taoyuan-alu.com",
+  "status": 200,
+  "has_english": true,
+  "signals": [
+   "EN-link"
+  ]
+ },
+ "Anhui Shengda Qianliang Aluminium Co., Ltd.": {
+  "url": "https://sdql-alu.com",
+  "final_url": "https://www.sdql-alu.com/",
+  "status": 200,
+  "has_english": true,
+  "signals": [
+   "EN-link",
+   "eng-dominant(zh=0)"
+  ]
+ },
+ "Nanhai Huixin Aluminum Company Limited of Foshan": {
+  "url": "https://www.hxalu.com",
+  "final_url": "https://www.hxalu.com",
+  "status": 200,
+  "has_english": true,
+  "signals": [
+   "EN-link"
+  ]
+ },
+ "Shandong Huifeng Aluminium Co., Ltd": {
+  "url": "http://en.aluhf.com",
+  "final_url": "http://en.aluhf.com",
+  "status": 200,
+  "has_english": true,
+  "signals": [
+   "EN-link"
+  ]
+ },
+ "Changsha Wensheng Building Materials Co., Ltd": {
+  "url": "https://www.lianchang-gd.com",
+  "final_url": "https://www.lianchang-gd.com",
+  "status": 200,
+  "has_english": true,
+  "signals": [
+   "EN-link",
+   "en-path"
+  ]
+ }
+}

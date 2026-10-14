@@ -1,0 +1,225 @@
+{
+  "channel": "exhibition",
+  "candidates": [
+    {
+      "name": "中原管道制造有限公司",
+      "website": "http://www.zygdgs.com/",
+      "address": "河北省沧州市盐山县城南工业区",
+      "products": "螺旋缝双面埋弧焊钢管(API5L,B-X100)、3PE防腐钢管、石油套管",
+      "source_url": "http://www.zygdgs.com/",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "盐山民营大型螺旋管厂,API 5L/5CT认证,中石油准入供应商,属中小民营制造"
+    },
+    {
+      "name": "河北龙马钢管制造股份有限公司",
+      "website": "http://www.hblongma.com/",
+      "address": "河北省沧州市孟村县希望新区",
+      "products": "大口径厚壁直缝焊管(API5L X42-X70/L245-L485)、高频焊管、方矩管",
+      "source_url": "http://www.hblongma.com/Qual8.html",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "民营,2009年获API 5L会标(5L-0685),孟村管道基地老厂"
+    },
+    {
+      "name": "河北瑞泰管道制造有限公司",
+      "website": "http://www.hbruitaigd.com/",
+      "address": "河北省沧州市盐山县城南蒲洼工业开发区",
+      "products": "双面埋弧螺旋焊管、3PE/2PE防腐钢管、聚氨酯保温管",
+      "source_url": "http://www.hbruitaigd.com/",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "民营,API 5L/5CT会标使用证,3PE防腐产线"
+    },
+    {
+      "name": "河北神舟钢管制造有限公司",
+      "website": "http://hbszlx.com/",
+      "address": "河北省沧州市孟村回族自治县希望新区工业区",
+      "products": "螺旋钢管、直缝钢管、3PE/2PE/FBE防腐钢管、保温管",
+      "source_url": "https://www.sohu.com/a/1081698612_122451998",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "民营焊管企业,ISO9001+API 5L认证,特种设备AB级压力管道制造许可"
+    },
+    {
+      "name": "浙江明贺钢管有限公司",
+      "website": "http://www.zjmhgg.com/",
+      "address": "浙江省湖州市德清县阜溪街道长虹东街766号",
+      "products": "无缝钢管(API5L管线管、油套管、P110/Q125高钢级管)",
+      "source_url": "https://e.cippe.com.cn/OfflineExDB/BJ2024/cn-view-id-14446.html",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "CIPE/cippe2024展商(英文名ZHEJIANG MINGHE STEEL PIPE已解析中文全称),专精特新小巨人,民营,产品含管线管X65Q/X80Q"
+    },
+    {
+      "name": "沧州伟浩管道科技有限公司",
+      "website": "http://www.whsteelfittings.com/",
+      "address": "河北省沧州市盐山县星马村正港路南侧",
+      "products": "钢管、管件、法兰、大口径直缝焊管、堆焊复合管件",
+      "source_url": "https://e.cippe.com.cn/OfflineExDB/BJ2021/en-view-id-11403-c-2.html",
+      "has_english_site": true,
+      "confidence": "high",
+      "notes": "英文名WH-STEEL CO.,LTD,cippe展商(展位W2700/W1330),民营外贸型管道装备企业"
+    },
+    {
+      "name": "河北宏科华管道有限公司",
+      "website": "http://hbhongkehuagd.com/",
+      "address": "河北省沧州市盐山县正港路工业园区",
+      "products": "螺旋钢管、直缝钢管、无缝钢管、3PE防腐钢管、保温管、管件",
+      "source_url": "https://www.hepan.com/article-890106-1.html",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "盐山30强龙头,自然人独资民营,中石油供应网络会员"
+    },
+    {
+      "name": "河北七海管道装备制造有限公司",
+      "website": "http://www.qihaigd168.com/",
+      "address": "河北省沧州市盐山县城南工业开发区",
+      "products": "2PE/3PE/加强级3PE防腐钢管、保温钢管、螺旋管",
+      "source_url": "https://www.cnblogs.com/xiao-xing-yun/p/23203333",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "民营管道装备厂,网站响应偶发异常需复核可访问性"
+    },
+    {
+      "name": "河北浦鑫管道集团有限公司",
+      "website": "",
+      "address": "河北省沧州市盐山经济开发区",
+      "products": "3PE防腐钢管、保温钢管、包覆式防腐管道",
+      "source_url": "https://b2bwiki.baidu.com/article/ace_mem_2525843?fid=402980866",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "待核实:未找到独立官网,仅垂直渠道/百科词条信息"
+    },
+    {
+      "name": "河北盛泰管道科技有限公司",
+      "website": "",
+      "address": "河北省沧州市(孟村/盐山管道产业带)",
+      "products": "螺旋焊管、直缝高频焊管、3PE防腐保温管、热扩管、管件",
+      "source_url": "https://www.sohu.com/a/961160914_122487137",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "待核实:垂直站介绍提及,未检索到独立官网域名"
+    },
+    {
+      "name": "沧州友诚管业有限公司",
+      "website": "http://www.cz-youcheng.com/",
+      "address": "河北省沧州市盐山经济开发区",
+      "products": "螺旋钢管、3PE/3LPE防腐钢管、聚氨酯保温管、涂塑钢管",
+      "source_url": "http://www.cz-youcheng.com/",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "民营实体厂,2012年成立,官网在线"
+    },
+    {
+      "name": "沧州北钢管业有限公司",
+      "website": "http://www.czbeigang.cn/",
+      "address": "河北省沧州市盐山县正港工业园区",
+      "products": "API5L管线管、API5CT石油套管、3PE防腐钢管、聚氨酯保温管",
+      "source_url": "http://www.czbeigang.cn/quality.html",
+      "has_english_site": true,
+      "confidence": "high",
+      "notes": "民营,官网英文站northsteel.biz,外贸型管线管/油套管厂"
+    },
+    {
+      "name": "沧州华洋钢管有限公司",
+      "website": "http://cn.hbhuayang.com/",
+      "address": "河北省沧州市孟村回族自治县",
+      "products": "API5L管线管、双面埋弧焊直缝焊管、3LPE涂层管",
+      "source_url": "https://cn.hbhuayang.com/product_details/212.html",
+      "has_english_site": true,
+      "confidence": "medium",
+      "notes": "待核实:CIPE展商报道中'华洋钢管'与河北华洋钢管公司名一致,规模偏大但为民营;建议核实归属"
+    },
+    {
+      "name": "河北华易管道制造有限公司",
+      "website": "http://www.hybwgd888.com/",
+      "address": "河北省沧州市盐山县城南开发区",
+      "products": "3PE防腐钢管、防腐保温管道、管件",
+      "source_url": "http://www.hybwgd888.com/Product-detail-id-501603430.html",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "民营防腐管道厂,官网在线"
+    },
+    {
+      "name": "河北同拓管道有限公司",
+      "website": "http://www.hbttpipe.com/",
+      "address": "河北省沧州市(盐山管道基地)",
+      "products": "3PE防腐钢管、保温钢管、涂塑钢管、螺旋钢管",
+      "source_url": "http://www.hbttpipe.com/Productlist_13.html",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "民营管道厂,官网在线"
+    },
+    {
+      "name": "沧州盛丰管道防腐保温工程有限公司",
+      "website": "http://www.sfpipe.com/",
+      "address": "河北省沧州市沧县汪家铺工业区",
+      "products": "3PE防腐钢管、FBE/2FBE防腐钢管、TPEP防腐钢管",
+      "source_url": "http://www.sfpipe.com/3pe/150.html",
+      "has_english_site": false,
+      "confidence": "high",
+      "notes": "民营防腐工程厂,官网在线"
+    },
+    {
+      "name": "沧州广汇管业有限公司",
+      "website": "http://www.slf-sebf.com/",
+      "address": "河北省沧州市盐山县开发区",
+      "products": "3PE防腐螺旋钢管、2PE防腐管道、保温管道",
+      "source_url": "http://www.slf-sebf.com/3pe/150.html",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "民营,官网在线"
+    },
+    {
+      "name": "河北龙润管道集团有限公司",
+      "website": "http://www.hblongrun.com/",
+      "address": "河北省沧州市盐山县沧乐路与205国道交界处",
+      "products": "3PE防腐管道、保温管道、管件、法兰",
+      "source_url": "https://www.hblongrun.com/?list-1723.html",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "民营集团,盐山管道装备10强,官网在线"
+    },
+    {
+      "name": "河北海浩集团赛腾管道有限公司",
+      "website": "http://www.hblrgd.cn/",
+      "address": "河北省沧州市孟村回族自治县北环工业区",
+      "products": "钢管、管件、法兰、管道防腐保温涂层",
+      "source_url": "https://haihaogroup.com/zjj.html",
+      "has_english_site": true,
+      "confidence": "low",
+      "notes": "待核实:hblrgd.cn实为龙润管道站点,海浩集团域名haihaogroup.com以管件法兰为主,API 5L钢管道能力需复核"
+    },
+    {
+      "name": "天津诚旺管业有限公司",
+      "website": "http://www.cwtsgg.com/",
+      "address": "天津市(管道防腐生产)",
+      "products": "加强级3PE防腐钢管、涂塑钢管、螺旋钢管",
+      "source_url": "http://www.cwtsgg.com/3pe/",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "民营防腐管厂,注册资金5000万,官网在线"
+    },
+    {
+      "name": "天津市富海通管道科技有限公司",
+      "website": "http://www.fhttsgg.com/",
+      "address": "天津市",
+      "products": "天然气输送用3PE防腐钢管、防腐保温管",
+      "source_url": "http://www.fhttsgg.com/pd.jsp?fromColId=2&id=17",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "民营,官网在线"
+    },
+    {
+      "name": "天津昕田管道科技有限公司",
+      "website": "http://www.tjxtpipe.com/",
+      "address": "天津市",
+      "products": "3PE防腐管、防腐保温管道",
+      "source_url": "http://www.tjxtpipe.com/productdetails/60.html",
+      "has_english_site": false,
+      "confidence": "medium",
+      "notes": "民营,官网在线"
+    }
+  ]
+}

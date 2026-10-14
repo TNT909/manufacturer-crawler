@@ -1,0 +1,355 @@
+{
+  "channel": "certification",
+  "candidates": [
+    {
+      "name": "河北神舟钢管制造有限公司",
+      "website": "http://www.hb-sz.com/",
+      "address": "河北省沧州市孟村回族自治县希望新区工业区",
+      "products": "双面埋弧焊螺旋钢管、直缝钢管、3LPE/3PE防腐钢管、聚氨酯保温钢管",
+      "source_url": "https://www.sohu.com/a/1084315648_122451998",
+      "has_english_site": false,
+      "confidence": "中高",
+      "notes": "持特种设备AB级压力管道制造许可，通过ISO9001与API 5L认证；8条螺旋管生产线，年产能30万吨，民营中小"
+    },
+    {
+      "name": "沧州市螺旋钢管集团有限公司",
+      "website": "http://www.czlxg.com/",
+      "address": "河北省沧州市新华区解放东路92号",
+      "products": "双面埋弧焊螺旋钢管、API 5L管线管、3PE防腐钢管、保温钢管",
+      "source_url": "http://www.cljt080.com/show-5-9-1.html",
+      "has_english_site": false,
+      "confidence": "高",
+      "notes": "官网设API-5L证书页；河北民营制造企业百强，原国企2000年改制为股份制，非上市"
+    },
+    {
+      "name": "河北龙马钢管制造股份有限公司",
+      "website": "http://www.hblongma.com/",
+      "address": "河北省沧州市孟村回族自治县",
+      "products": "大口径厚壁LSAW直缝埋弧焊钢管、API 5L管线管",
+      "source_url": "http://www.hblongma.com/Qual8.html",
+      "has_english_site": false,
+      "confidence": "高",
+      "notes": "2009年取得API 5L证书（PSL1/PSL2），官网资质页公示会标证书；民营股份公司，4条埋弧线年产能60万吨"
+    },
+    {
+      "name": "河北海乾威钢管有限公司",
+      "website": "https://www.hspc.cc/",
+      "address": "河北省沧州市盐山县",
+      "products": "大口径直缝双面埋弧焊钢管(LSAW)、API 5L管线管",
+      "source_url": "https://www.hspc.cc/",
+      "has_english_site": false,
+      "confidence": "高",
+      "notes": "持A1级压力管道生产许可，执行API 5L、GB/T9711，国家专精特新小巨人，民营，年产40万吨"
+    },
+    {
+      "name": "中原管道制造有限公司",
+      "website": "http://www.zygd8888.com/",
+      "address": "河北省沧州市盐山城南工业区",
+      "products": "API 5L螺旋钢管、3LPE/3PE防腐钢管、TPEP涂塑管",
+      "source_url": "https://www.sohu.com/a/1080168153_122714611",
+      "has_english_site": false,
+      "confidence": "高",
+      "notes": "持API Spec 5L产品认证、API Spec Q1体系认证、压力管道元件特种设备制造许可；中石油/中石化准入供应商，民营"
+    },
+    {
+      "name": "河北华洋钢管有限公司",
+      "website": "https://cn.hbhuayang.com/",
+      "address": "河北省沧州市",
+      "products": "ERW/HFI高频直缝焊管、LSAW直缝埋弧焊管、API 5L管线管",
+      "source_url": "https://cn.hbhuayang.com/product_details/204.html",
+      "has_english_site": false,
+      "confidence": "中高",
+      "notes": "产品线含API 5L管线管(PSL1/PSL2)；民营，2005年成立，'华洋牌'河北省名牌产品"
+    },
+    {
+      "name": "沧州市鑫宜达管道有限公司",
+      "website": "https://www.sined.cn/",
+      "address": "河北省沧州市经济开发区",
+      "products": "螺旋钢管、3PE/FBE防腐钢管、涂塑钢管、大口径直缝钢管",
+      "source_url": "https://www.sined.cn/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "原沧州市鑫宜达钢管集团股份有限公司，2003年成立，民营工贸型管道企业，官网公示防腐产线，API 5L资质待核实"
+    },
+    {
+      "name": "沧州广汇管业有限公司",
+      "website": "http://www.slf-sebf.com/",
+      "address": "河北省沧州市盐山县蒲洼城工业区",
+      "products": "3PE防腐钢管、TPEP防腐钢管、螺旋钢管、直缝钢管",
+      "source_url": "http://www.slf-sebf.com/about/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "盐山重点规上企业、管道装备协会会员，创建于1995年，民营；API 5L制造业绩待核实"
+    },
+    {
+      "name": "河北宝隆钢管制造有限公司",
+      "website": "http://www.hebeibaolong.com/",
+      "address": "河北省沧州市沧狮工业园",
+      "products": "螺旋钢管、无缝钢管、直缝钢管、防腐保温钢管及管件",
+      "source_url": "http://www.hebeibaolong.com/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "综合性民营管道企业，注册资金1.68亿，占地约20万平米；API 5L/压力管道许可待核实"
+    },
+    {
+      "name": "沧州北钢管业有限公司",
+      "website": "http://www.czbeigang.cn/",
+      "address": "河北省沧州市盐山县正港工业园区",
+      "products": "API 5L管线管、API 5CT石油套管、加厚油管、3PE防腐钢管、聚氨酯保温管",
+      "source_url": "http://www.czbeigang.cn/products_list/7.html",
+      "has_english_site": false,
+      "confidence": "中高",
+      "notes": "产品执行API SPEC 5L/5CT，民营，沧州盐山管道产业带实体厂"
+    },
+    {
+      "name": "沧州友诚管业有限公司",
+      "website": "http://www.czycgy.com/",
+      "address": "河北省沧州市盐山县工业开发区",
+      "products": "3LPE/3PE防腐钢管、螺旋钢管、涂塑钢管、聚氨酯保温管",
+      "source_url": "http://www.czycgy.com/productlist.html",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "2012年成立，下属沧州友诚防腐保温管道公司专产石油天然气专用3PE防腐钢管，民营；API 5L待核实"
+    },
+    {
+      "name": "盐山瑞通钢管有限公司",
+      "website": "http://ruitonggd.com/",
+      "address": "河北省沧州市盐山县",
+      "products": "API 5L螺旋钢管、防腐保温管道",
+      "source_url": "http://ruitonggd.com/apilx/276.html",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "官网设API 5L螺旋钢管产品页（PSL1/PSL2），盐山民营小厂"
+    },
+    {
+      "name": "河北天元钢管制造有限公司",
+      "website": "http://www.tianyuangs.com/",
+      "address": "河北省沧州市盐山县城南",
+      "products": "螺旋焊管、直缝焊管、防腐钢管、疏浚钢管、保温钢管",
+      "source_url": "http://www.tianyuangs.com/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "2005年成立，与邯郸海金合资的民营企业，年产10万吨；官网有API螺旋钢管页，API证书待核实"
+    },
+    {
+      "name": "河北龙润管道集团有限公司",
+      "website": "https://www.hblongrun.com/",
+      "address": "河北省沧州市盐山县",
+      "products": "螺旋钢管、防腐保温管道、石油专用管材",
+      "source_url": "https://www.hblongrun.com/?list-1712.html",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "1998年建厂，占地12.5万平米，民营集团；API 5L资质待核实"
+    },
+    {
+      "name": "河北恒泰管道科技有限公司",
+      "website": "http://www.hengtaigg.com/",
+      "address": "河北省沧州市盐山经济开发区正港园区",
+      "products": "螺旋钢管、防腐管道、保温管道、管件",
+      "source_url": "http://www.hengtaigg.com/page57",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "盐山正港园区民营管道企业；API 5L/压力管道许可待核实"
+    },
+    {
+      "name": "沧州恒泰泽远防腐管道有限公司",
+      "website": "https://cn.htzylinedpipes.com/",
+      "address": "河北省沧州市盐山县",
+      "products": "3PE/FBE防腐管道、保温管道、涂塑管道",
+      "source_url": "https://cn.htzylinedpipes.com/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "河北恒泰集团（1985年建厂）下属分公司，民营；API 5L待核实"
+    },
+    {
+      "name": "沧州隆泰迪管道科技有限公司",
+      "website": "http://www.longtaidi.com/",
+      "address": "河北省沧州市沧县风化店乡经济技术开发区",
+      "products": "双面埋弧焊螺旋钢管、3PE防腐钢管、双金属复合管",
+      "source_url": "https://www.linkedin.com/company/沧州隆泰迪管道科技有限公司",
+      "has_english_site": false,
+      "confidence": "中高",
+      "notes": "1990年代创立的民营管道科技公司；2026年友发集团拟并购53%股权，注意集团归属；API 5L业绩待核实"
+    },
+    {
+      "name": "江苏诚德钢管股份有限公司",
+      "website": "http://www.cdgroup.cn/",
+      "address": "江苏省扬州市江都区沿江经济开发区",
+      "products": "管线用无缝钢管（API SPEC 5L）、冷拔小口径无缝钢管",
+      "source_url": "http://www.cdgroup.cn/products2.php?id=6",
+      "has_english_site": true,
+      "confidence": "高",
+      "notes": "民营无缝钢管大型企业，官网管线管产品页标注API SPEC 5L/GB/T9711.2，B~X80；有英文站cdpipe.com/en"
+    },
+    {
+      "name": "江苏通宇钢管集团有限公司",
+      "website": "http://www.tongyusteelpipe.com/",
+      "address": "江苏省扬州市",
+      "products": "螺旋埋弧焊钢管、JCOE直缝埋弧焊钢管、油气输送管线工程用管",
+      "source_url": "http://www.tongyusteelpipe.com/product/8/",
+      "has_english_site": false,
+      "confidence": "中高",
+      "notes": "原扬州市钢管总厂，1990年创建，华东民营钢管企业，产品覆盖油气输送管线"
+    },
+    {
+      "name": "天津市联众管道科技有限公司",
+      "website": "http://tuspipe.com.cn/",
+      "address": "天津市",
+      "products": "ERW高频焊管、API 5L管线管、套管、油管",
+      "source_url": "http://tuspipe.com.cn/products/line-pipe/",
+      "has_english_site": false,
+      "confidence": "中高",
+      "notes": "民营高新技术焊管企业，主营石油天然气开采用套管、管线管；API 5L产品线明确，会标许可待核实"
+    },
+    {
+      "name": "无锡贝来管业有限公司",
+      "website": "https://www.beilaitube.cn/",
+      "address": "江苏省无锡市",
+      "products": "API 5L管线管、API 5CT油套管、无缝钢管",
+      "source_url": "https://www.beilaitube.cn/proshow/50.html",
+      "has_english_site": false,
+      "confidence": "中高",
+      "notes": "1991年起生产，民营；产品覆盖API SPEC 5CT/5L标准油套管与管线管"
+    },
+    {
+      "name": "河北志航管道装备制造股份有限公司",
+      "website": "http://www.hbzhgdzb.com/",
+      "address": "河北省沧州市孟村回族自治县",
+      "products": "大口径ERW高频直缝焊钢管、管线钢管",
+      "source_url": "http://www.hbzhgdzb.com/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "河北省重点企业，民营股份公司；大口径ERW管线管制造商，API 5L资质待核实"
+    },
+    {
+      "name": "山东中正钢管制造有限公司",
+      "website": "http://www.zz-pipe.com/",
+      "address": "山东省聊城市经济开发区",
+      "products": "无缝钢管、API 5L管线管、LSAW大口径管线管、石油裂化管",
+      "source_url": "http://www.zz-pipe.com/product/17/",
+      "has_english_site": false,
+      "confidence": "中高",
+      "notes": "2006年成立，民营无缝钢管厂，产品含API 5L X70管线管及3LPE防腐；会标许可待核实"
+    },
+    {
+      "name": "沧州昶晟管业有限公司",
+      "website": "http://www.czcsgy.com/",
+      "address": "河北省沧州市盐山县孟店乡贾金村",
+      "products": "API 5L螺旋钢管、涂塑管道、防腐保温管道",
+      "source_url": "http://czcsgy.com/wap/apilx/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "官网设API螺旋钢管产品页，民营盐山小厂；API会标证书待核实"
+    },
+    {
+      "name": "沧州盛丰管道防腐保温工程有限公司",
+      "website": "https://www.sfpipe.com/",
+      "address": "河北省沧州市",
+      "products": "3PE防腐钢管、FBE防腐钢管、TPEP防腐钢管、保温钢管",
+      "source_url": "https://www.sfpipe.com/about-us/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "民营防腐工程实体企业，持防腐生产线；API 5L基管与许可待核实"
+    },
+    {
+      "name": "沧州英铎管道有限公司",
+      "website": "https://yingduogd.com/",
+      "address": "河北省沧州市盐山县",
+      "products": "3PE防腐钢管、TPEP防腐钢管、国标螺旋钢管、保温管道",
+      "source_url": "https://yingduogd.com/gsjj",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "盐山民营管道企业；API 5L资质待核实"
+    },
+    {
+      "name": "河北华盾管道制造有限公司",
+      "website": "http://www.czhdgd.cn/",
+      "address": "河北省沧州市盐山县蒲洼工业区",
+      "products": "3PE防腐钢管、聚氨酯保温钢管、消防涂塑管道",
+      "source_url": "http://www.czhdgd.cn/wap/Industry_206.html",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "盐山民营大型管道企业；API 5L资质待核实"
+    },
+    {
+      "name": "河北兴松实业有限公司",
+      "website": "http://www.guanjidi.com/",
+      "address": "河北省沧州市",
+      "products": "防腐保温管道、3PE防腐钢管、石油石化配套管道",
+      "source_url": "http://www.guanjidi.com/Technical.html",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "民营防腐保温专业厂家，供石油、石化用户；API 5L资质待核实"
+    },
+    {
+      "name": "河北汇科钢管有限公司",
+      "website": "https://www.huikepipe.com/",
+      "address": "河北省沧州市（0317区号）",
+      "products": "石油套管、油管、管线管",
+      "source_url": "https://www.huikepipe.com/product/5/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "民营石油管材企业；API 5L/5CT资质待核实"
+    },
+    {
+      "name": "沧州宏宝管道有限公司",
+      "website": "http://www.hbgd1688.com/",
+      "address": "河北省沧州市",
+      "products": "3PE防腐钢管、涂塑钢管、保温钢管",
+      "source_url": "http://www.hbgd1688.com/3pe/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "民营涂塑防腐钢管生产厂家；API 5L资质待核实"
+    },
+    {
+      "name": "河北科天管业有限公司",
+      "website": "http://www.kslpipe.com/",
+      "address": "河北省沧州市",
+      "products": "3PE防腐钢管、内外涂环氧树脂钢塑复合管",
+      "source_url": "http://www.kslpipe.com/3peffgg/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "民营管业公司；API 5L资质待核实"
+    },
+    {
+      "name": "沧州申越管道有限公司",
+      "website": "http://www.czsygy.com/",
+      "address": "河北省沧州市",
+      "products": "螺旋钢管、防腐钢管、保温钢管、涂塑钢管",
+      "source_url": "http://www.czsygy.com/wap/productList.asp?SortID=48",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "民营管道企业；API 5L资质待核实"
+    },
+    {
+      "name": "河北乾兴管道装备制造有限公司",
+      "website": "http://www.ysyhgg.com/",
+      "address": "河北省沧州市盐山县工业开发区",
+      "products": "保温钢管、防腐钢管、无缝钢管、直缝钢管、螺旋钢管",
+      "source_url": "http://www.ysyhgg.com/product/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "盐山民营管道装备企业；API 5L资质待核实"
+    },
+    {
+      "name": "河北冠奇管道设备制造有限公司",
+      "website": "https://www.hbgqpipe.com/",
+      "address": "河北省沧州市孟村回族自治县辛店镇工业区",
+      "products": "管道设备、防腐保温管道、弯头管件",
+      "source_url": "https://www.hbgqpipe.com/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "孟村民营管道企业；API 5L资质待核实"
+    },
+    {
+      "name": "沧州华盾管道科技有限公司",
+      "website": "http://www.hbhuangchi.com/",
+      "address": "河北省沧州市盐山县经济开发区",
+      "products": "TPEP防腐钢管、大口径涂塑复合钢管、保温钢管",
+      "source_url": "http://www.hbhuangchi.com/zh",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "盐山民营防腐保温钢管企业；API 5L资质待核实"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+ "Alumag Aluminum Tech(Taicang) Co., Ltd.": {
+  "url": "https://en.alumag.com.cn",
+  "status": null,
+  "has_english": false,
+  "note": "28B"
+ },
+ "Wuxi Gold Guangyuan Metal Products Factory": {
+  "url": "https://www.guangyuantubes.com",
+  "status": 200,
+  "has_english": false,
+  "note": "36214B"
+ },
+ "Sihui Shengjie Metal Products Co., Ltd.": {
+  "url": "https://www.sjalum.com",
+  "status": 200,
+  "has_english": true,
+  "note": "309393B"
+ },
+ "Suzhou Jieyou Fluid Technology Co., Ltd.": {
+  "url": "https://www.upipetech.com",
+  "status": 200,
+  "has_english": true,
+  "note": "152209B"
+ },
+ "Zeyi Aluminum Co., Ltd.": {
+  "url": "https://zeyialuminum.com",
+  "status": 200,
+  "has_english": true,
+  "note": "147763B"
+ },
+ "Zhenjiang Runfa Aluminium Co., Ltd.": {
+  "url": "https://runfaal.com",
+  "status": 200,
+  "has_english": true,
+  "note": "209946B"
+ },
+ "Hunan Hengjia New Materials Technology Co., Ltd.": {
+  "url": "https://en.hengjialum.cn",
+  "status": 200,
+  "has_english": true,
+  "note": "72920B"
+ },
+ "Zhangjiagang Chewit International Co., Ltd.": {
+  "url": "https://pipecw.com",
+  "status": 200,
+  "has_english": true,
+  "note": "36910B"
+ },
+ "Foshan City Nanhai Taoyuan Aluminium Co., Ltd.": {
+  "url": "https://taoyuan-alu.com",
+  "status": 200,
+  "has_english": true,
+  "note": "54262B"
+ },
+ "Nantong Chang Hai ALuminium Co., Ltd.": {
+  "url": "https://www.chinalu.com.cn",
+  "status": null,
+  "has_english": false,
+  "note": "50B"
+ },
+ "Anhui Shengda Qianliang Aluminium Co., Ltd.": {
+  "url": "https://sdql-alu.com",
+  "status": 200,
+  "has_english": true,
+  "note": "54761B"
+ },
+ "Nanhai Huixin Aluminum Company Limited of Foshan": {
+  "url": "https://www.hxalu.com",
+  "status": 200,
+  "has_english": true,
+  "note": "91845B"
+ },
+ "Shandong Huifeng Aluminium Co., Ltd": {
+  "url": "http://en.aluhf.com",
+  "status": 200,
+  "has_english": false,
+  "note": "84984B"
+ },
+ "Changsha Wensheng Building Materials Co., Ltd": {
+  "url": "https://www.lianchang-gd.com",
+  "status": 200,
+  "has_english": true,
+  "note": "36587B"
+ }
+}

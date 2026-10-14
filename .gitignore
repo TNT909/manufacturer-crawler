@@ -1,0 +1,19 @@
+# git worktree 挂载点（含抖音爬虫 venv 等无关项目，勿入库）
+.worktrees/
+
+# 无关目录
+iy/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 临时/缓存
+*.log
+.DS_Store
+Thumbs.db
+~$*.xlsx
+
+# 保留 data/ 下的成品表格与中间 JSON（有意同步）

@@ -1,0 +1,315 @@
+{
+  "channel": "搜索引擎",
+  "candidates": [
+    {
+      "name": "山东通泰铝材有限公司",
+      "website": "http://www.wufenglvguan.com/",
+      "address": "山东省",
+      "products": "铝管、铝方管、无缝铝管、纯铝管、厚壁大口径铝管、薄壁铝管（1-7系各类合金）",
+      "source_url": "http://www.wufenglvguan.com/",
+      "has_english_site": false,
+      "confidence": "高",
+      "notes": "专业铝管生产厂家，1-7系各类合金管材齐备，私营中小型企业。"
+    },
+    {
+      "name": "浙江昱泰铝业有限公司",
+      "website": "http://www.yutaivip.com/",
+      "address": "浙江省",
+      "products": "铝管、铝棒、高精度铝合金异型材、小氧化",
+      "source_url": "http://www.yutaivip.com/",
+      "has_english_site": false,
+      "confidence": "高",
+      "notes": "2010年成立，民营铝型材企业，15条挤压线，主打铝管、铝棒及异型材。"
+    },
+    {
+      "name": "山东鸿沐金属制品有限公司（聊城鸿沐铝业）",
+      "website": "http://hongmuly.com/",
+      "address": "山东省聊城",
+      "products": "铝合金圆管、无缝铝管、铝方管、角铝、槽铝、铝棒",
+      "source_url": "http://hongmuly.com/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "铝型材经营销售企业，各系铝管/型材，贸易兼加工。"
+    },
+    {
+      "name": "江苏格惠斯铝业集团有限公司",
+      "website": "http://www.ghsvip.com/",
+      "address": "江苏省",
+      "products": "铝管、铝板、铝棒、铝型材、铝锻件、精密加工",
+      "source_url": "http://www.ghsvip.com/lvguan/index.html",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "民营铝材集团，提供铝管等全品类及精加工。"
+    },
+    {
+      "name": "张家港市祥亿铝材制造有限公司",
+      "website": "http://www.xiangyilvcai.com/",
+      "address": "江苏省张家港",
+      "products": "铝圆管、铝方管、精密无缝铝管、薄壁/厚壁铝管、散热器铝型材、工业铝型材",
+      "source_url": "http://www.xiangyilvcai.com/",
+      "has_english_site": false,
+      "confidence": "高",
+      "notes": "2001年成立民营铝型材厂家，主打铝管加工、散热器、工业型材深加工。"
+    },
+    {
+      "name": "浙江博奥铝业有限公司",
+      "website": "https://www.zjboaolvye.com/",
+      "address": "浙江省湖州",
+      "products": "建筑门窗/幕墙铝合金型材、工业铝型材深加工、系统门窗",
+      "source_url": "https://www.zjboaolvye.com/about_70/",
+      "has_english_site": false,
+      "confidence": "高",
+      "notes": "2007年成立大型民营股份企业，35条挤压线，年产能27万吨。"
+    },
+    {
+      "name": "浙江鸿昌铝业有限公司",
+      "website": "https://www.zjhcly.com/",
+      "address": "浙江省湖州",
+      "products": "建筑铝合金型材、工业铝合金型材",
+      "source_url": "https://www.zjhcly.com/about/",
+      "has_english_site": false,
+      "confidence": "高",
+      "notes": "2013年成立高新技术企业，建筑+工业铝型材。"
+    },
+    {
+      "name": "广东广源铝业有限公司",
+      "website": "https://guang-yuan.com/",
+      "address": "广东省佛山市三水区",
+      "products": "建筑类、装饰类、工业类、军工类铝合金型材",
+      "source_url": "https://guang-yuan.com/about.php",
+      "has_english_site": false,
+      "confidence": "高",
+      "notes": "1993年成立大型民营铝型材企业，年产能15万吨。"
+    },
+    {
+      "name": "江西万工铝业有限公司",
+      "website": "https://www.jxwgly.com/",
+      "address": "江西省万载",
+      "products": "建筑铝型材、装饰类型材、工业类军工类特种型材",
+      "source_url": "https://www.jxwgly.com/",
+      "has_english_site": false,
+      "confidence": "高",
+      "notes": "2003年创建民营铝型材企业，特种型材，年设计10万吨。"
+    },
+    {
+      "name": "湖南千源铝业有限公司",
+      "website": "https://www.hnqylc.com/",
+      "address": "湖南省",
+      "products": "门窗系列、幕墙系列、推拉窗/门系列、阳光房系列铝型材",
+      "source_url": "https://www.hnqylc.com/",
+      "has_english_site": false,
+      "confidence": "高",
+      "notes": "铝型材研发/加工/表面处理完整产业链，有英文栏目。"
+    },
+    {
+      "name": "广东南方铝业有限公司",
+      "website": "https://www.gdnfal.com/",
+      "address": "广东省肇庆市广宁县",
+      "products": "建筑铝型材、工业铝型材、门窗幕墙",
+      "source_url": "https://www.gdnfal.com/",
+      "has_english_site": false,
+      "confidence": "高",
+      "notes": "1992年成立综合性铝型材企业，36条线产能20万吨。"
+    },
+    {
+      "name": "高登铝业（广东）",
+      "website": "https://www.golden-al.com/",
+      "address": "广东省",
+      "products": "全铝家居、门窗铝材、家装铝材、户外产品（凉亭/栏杆/阳光房）",
+      "source_url": "https://www.golden-al.com/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "专注家装铝材与全铝家居，木纹表面处理。"
+    },
+    {
+      "name": "佛山市银正铝业有限公司",
+      "website": "https://www.skyline-alu.com/",
+      "address": "广东省佛山",
+      "products": "工业铝材、家装铝材、铝门窗、瓷泳铝材",
+      "source_url": "https://www.skyline-alu.com/index.php",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "16条挤压线，含氟碳喷涂、晶泳生产线。"
+    },
+    {
+      "name": "广东新合铝业（新河铝材）",
+      "website": "https://www.xinhe-alu.com/",
+      "address": "广东省",
+      "products": "门窗铝型材、家装铝型材、拉弯型材",
+      "source_url": "https://www.xinhe-alu.com/",
+      "has_english_site": false,
+      "confidence": "高",
+      "notes": "民营家装铝型材品牌供应商，门窗系统型材。"
+    },
+    {
+      "name": "金甲什铝业有限公司",
+      "website": "https://www.gj-alu.com/",
+      "address": "广东省佛山/安徽（3厂区）",
+      "products": "挤压型材、工业/建筑/幕墙/家具/灯具/散热器/太阳能边框型材、OEM定制",
+      "source_url": "https://www.gj-alu.com/cn/our-company/",
+      "has_english_site": true,
+      "confidence": "高",
+      "notes": "2010年成立定制化铝材厂家，中英文官网，有英/中双语站点。"
+    },
+    {
+      "name": "华扬铝业实业有限公司",
+      "website": "https://www.huayang-al.com/",
+      "address": "广东省",
+      "products": "铝挤压型材、铝散热器、铝型材饰条、光伏铝型材、角铝、木纹门窗型材",
+      "source_url": "https://www.huayang-al.com/products/extruded-profile/",
+      "has_english_site": true,
+      "confidence": "高",
+      "notes": "定制铝合金挤压型材，含氧化/电泳/喷涂/木纹深加工。"
+    },
+    {
+      "name": "上海敦品铝业科技有限公司",
+      "website": "https://www.dunpinal.com/",
+      "address": "上海市",
+      "products": "铝型材加工、开模定制、挤压、折弯、铝合金导轨",
+      "source_url": "https://www.dunpinal.com/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "铝型材开模定制/深加工，智能仓储导轨。"
+    },
+    {
+      "name": "天津艾普斯工业铝型材股份有限公司",
+      "website": "http://www.apastj.com/",
+      "address": "天津市",
+      "products": "APAS工业铝型材、铝型材配件、框架加工定制",
+      "source_url": "http://www.apastj.com/",
+      "has_english_site": false,
+      "confidence": "高",
+      "notes": "专注工业铝型材集成服务，面向汽车/自动化/机器人行业。"
+    },
+    {
+      "name": "深圳市嘉曼工业设备有限公司",
+      "website": "http://www.szjiaman.com/",
+      "address": "广东省深圳",
+      "products": "工业铝型材、铝型材批发加工、铝型材框架工作台",
+      "source_url": "http://www.szjiaman.com/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "工业铝型材批发加工服务商。"
+    },
+    {
+      "name": "深圳中亚铝业有限公司",
+      "website": "http://www.zhongya-al.com/",
+      "address": "广东省深圳",
+      "products": "工业铝材、挤压铝型材定制开模加工、装饰铝型材挤压",
+      "source_url": "http://www.zhongya-al.com/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "工业铝型材开模定制生产厂家，深圳/佛山装饰挤压。"
+    },
+    {
+      "name": "深圳科速（KESU）铝型材",
+      "website": "http://www.dgkesu.com/",
+      "address": "广东省东莞/深圳",
+      "products": "铝挤压型材加工、工业铝型材",
+      "source_url": "http://www.dgkesu.com/service/aluminium-extrusion-profiles.html",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "铝挤压型材加工服务商，含深加工。"
+    },
+    {
+      "name": "无锡智恩铝型材有限公司",
+      "website": "https://www.cnzhien.com/",
+      "address": "江苏省无锡（全国多仓库）",
+      "products": "工业铝型材及连接件、异型材开模设计、铝型材精密加工、表面处理、框架组装",
+      "source_url": "https://www.cnzhien.com/aboutus",
+      "has_english_site": false,
+      "confidence": "高",
+      "notes": "2006年成立铝型材服务商，工业型材一站式。"
+    },
+    {
+      "name": "佛山市南海雄业铝型材有限公司",
+      "website": "http://www.xiongye-alu.com/",
+      "address": "广东省佛山南海",
+      "products": "工业铝型材、异形铝型材、门窗铝型材、铝材定制、全铝家居",
+      "source_url": "http://www.xiongye-alu.com/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "铝材定制厂家，工业+门窗+全铝家居。"
+    },
+    {
+      "name": "COFAN Thermal（科帆散热）",
+      "website": "https://www.cofanthermal.com/",
+      "address": "中国",
+      "products": "挤压散热器铝型材、散热片",
+      "source_url": "https://www.cofanthermal.com/zh/extruded-heatsink_cn/",
+      "has_english_site": true,
+      "confidence": "中",
+      "notes": "散热器铝型材专业厂商，中英文站点。"
+    },
+    {
+      "name": "安徽博泰铝业科技集团有限公司",
+      "website": "https://ahbtly.com/",
+      "address": "安徽省铜陵市枞阳县",
+      "products": "建筑/装饰/工业/军工/航空航天/特种铝合金型材、光伏铝组件",
+      "source_url": "https://ahbtly.com/about",
+      "has_english_site": false,
+      "confidence": "高",
+      "notes": "民营铝型材企业，年产能5万吨，专注光伏组件及特种型材。"
+    },
+    {
+      "name": "湖北天为铝业科技有限公司",
+      "website": "http://www.hbtwly.cn/",
+      "address": "湖北省十堰市房县",
+      "products": "铝锭铝棒深加工、铝型材挤压、氧化/电泳喷涂、机加工",
+      "source_url": "http://www.hbtwly.cn/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "2023年成立合资工业铝型材企业，含英文栏目。"
+    },
+    {
+      "name": "山东博通铝业科技股份有限公司",
+      "website": "http://www.yuantongjituan.cn/",
+      "address": "山东省梁山",
+      "products": "高强方管、型钢、高强度铝合金型材新材料",
+      "source_url": "http://www.yuantongjituan.cn/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "远通集团下属，专车轻量化高强铝合金型材/方管。"
+    },
+    {
+      "name": "江苏扬东铝业集团有限公司",
+      "website": "https://www.yangdong-al.com/",
+      "address": "江苏省",
+      "products": "高精工业铝板、铝棒、铝卷、铝管、铝型材、航空铝",
+      "source_url": "https://www.yangdong-al.com/product/1070",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "深耕铝材20年，含航空铝、铝管、铝型材，兵器集团供应商。"
+    },
+    {
+      "name": "Linsy Aluminum（优质铝材制造商）",
+      "website": "https://premiumalu.com/",
+      "address": "中国",
+      "products": "铝管、铝线、铝条、铝板、铝型材、铝卷、7075/6061/6063等合金",
+      "source_url": "https://premiumalu.com/zh/",
+      "has_english_site": true,
+      "confidence": "中",
+      "notes": "铝管/铝型材制造商，含挤压机、退火炉等完整生产线，中英文站点。"
+    },
+    {
+      "name": "Gengfei Steel（铝圆管供应商）",
+      "website": "https://gengfeisteel.com/",
+      "address": "中国",
+      "products": "铝圆管/铝管（Factory Supply）",
+      "source_url": "https://gengfeisteel.com/zh/aluminum-round-tube/",
+      "has_english_site": true,
+      "confidence": "中",
+      "notes": "铝圆管/管材供应，中英文站点。"
+    },
+    {
+      "name": "东莞市可速（KESU）铝业",
+      "website": "http://www.dgkesu.com/",
+      "address": "广东省东莞",
+      "products": "铝挤压型材加工",
+      "source_url": "http://www.dgkesu.com/",
+      "has_english_site": false,
+      "confidence": "中",
+      "notes": "铝挤压型材加工商（与深圳科速同体系）。"
+    }
+  ]
+}
