@@ -6,26 +6,32 @@
 
 ```
 manufacturer-crawler/
-├── skill/                  # 可移植 skill（SKILL.md + scripts + references + templates）
-│   ├── SKILL.md            #   给智能体读的工作流手册（含全部踩坑经验）
-│   ├── scripts/            #   整合版脚本：aggregate / verify / tyc_verify / finalize / qcc_verify
-│   ├── references/         #   渠道全景、官网验证规则、工商核验渠道
-│   └── templates/          #   品类关键词模板
-├── modules/                # 三模块迭代版（日常开发改这里）
+├── pipeline/             # 日常跑批用（整合版流水线，一条命令跑全流程）
+│   ├── README.md / WORKFLOW.md
+│   ├── scripts/          #   aggregate / verify / tyc_verify / finalize
+│   └── sources/          #   品类关键词 / 黑名单 / 官网验证 YAML
+├── modules/              # 日常迭代改这里（三模块分模块源码）
 │   ├── information-channel/        # 发现：多渠道采集候选 + 清洗去重
 │   ├── website-content-verification/  # 官网内容实测：产品/设备/英文官网
 │   └── business-registration-verification/  # 工商核验：天眼查存续/资金/性质
-├── data/                   # 各品类挖掘结果（_clean/verify_result/_tyc/候选名单）
+├── skill/                # 可移植 skill（供其他电脑/智能体使用）
+│   ├── SKILL.md          #   给智能体读的工作流手册（含全部踩坑经验）
+│   ├── scripts/          #   与 pipeline/scripts 同源的整合脚本
+│   ├── references/       #   渠道全景、官网验证规则、工商核验渠道
+│   └── templates/        #   品类关键词模板
+├── data/                 # 各品类挖掘结果（_clean/verify_result/_tyc/候选名单）
 └── .gitignore
 ```
 
-## 两种使用方式
+## 三者关系
 
-**方式A — 直接用整合脚本**（推荐，一条命令跑全流程）：
-用 `skill/scripts/` 下的脚本，按 `skill/SKILL.md` 的阶段 1→5 跑。脚本与 `modules/` 三模块同源，已端到端验证。
+| 目录 | 用途 | 何时用 |
+|---|---|---|
+| `pipeline/` | 日常跑批，整合版脚本一条命令跑全流程 | 实际挖掘某个品类时 |
+| `modules/` | 三模块分模块源码，改功能/加渠道时 | 迭代开发时 |
+| `skill/` | 可移植 skill，SKILL.md + 同源脚本 | 其他电脑/其他智能体使用 |
 
-**方式B — 改分模块**（迭代开发时）：
-改 `modules/` 下对应模块的源码，改完把更新同步回 `skill/scripts/`。
+`pipeline/scripts` 与 `skill/scripts` 保持同源（定期同步）；`modules/` 是分模块的演进源头，改完把整合版同步到 pipeline 和 skill。
 
 ## 依赖
 
